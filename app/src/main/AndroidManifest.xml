@@ -13,6 +13,36 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".gg27805"
+            android:exported="false" />
+        <activity
+            android:name=".egg244lc"
+            android:exported="false" />
+        <activity
+            android:name=".egg226"
+            android:exported="false" />
+        <activity
+            android:name=".egg2017"
+            android:exported="false" />
+        <activity
+            android:name=".egg2016"
+            android:exported="false" />
+        <activity
+            android:name=".egg215"
+            android:exported="false" />
+        <activity
+            android:name=".egg207"
+            android:exported="false" />
+        <activity
+            android:name=".egg206"
+            android:exported="false" />
+        <activity
+            android:name=".egg201"
+            android:exported="false" />
+        <activity
+            android:name=".misto18"
+            android:exported="false" />
+        <activity
             android:name=".t14308"
             android:exported="false" />
         <activity

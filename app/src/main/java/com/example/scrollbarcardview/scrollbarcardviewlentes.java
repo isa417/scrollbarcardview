@@ -43,6 +43,9 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
             }
         });
 
+
+        //lentes
+
         ge101imaf = findViewById(R.id.ge101imaf);
         ge101imaf.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -151,8 +154,6 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
