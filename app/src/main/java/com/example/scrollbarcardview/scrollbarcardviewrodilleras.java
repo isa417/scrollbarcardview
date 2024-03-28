@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 public class scrollbarcardviewrodilleras extends AppCompatActivity {
 
     ImageView salir5;
+    ImageView eger551;
+    ImageView eger553;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,24 @@ public class scrollbarcardviewrodilleras extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewrodilleras.this, drawviewseg.class);
+                startActivity(i);
+            }
+        });
+
+        eger551 = findViewById(R.id.eger551);
+        eger551.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewrodilleras.this, com.example.scrollbarcardview.eger551.class);
+                startActivity(i);
+            }
+        });
+
+        eger553 = findViewById(R.id.eger553);
+        eger553.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewrodilleras.this, com.example.scrollbarcardview.eger553.class);
                 startActivity(i);
             }
         });

@@ -14,6 +14,10 @@ import androidx.core.view.WindowInsetsCompat;
 public class scrollbarcardviewaudifonos extends AppCompatActivity {
 
     ImageView salir3;
+    ImageView egm453;
+    ImageView egem454hv;
+    ImageView egm450;
+    ImageView apta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,42 @@ public class scrollbarcardviewaudifonos extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewaudifonos.this, drawviewseg.class);
+                startActivity(i);
+            }
+        });
+
+        egm453 = findViewById(R.id.egm453);
+        egm453.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, egm453.class);
+                startActivity(i);
+            }
+        });
+
+        egem454hv = findViewById(R.id.egem454hv);
+        egem454hv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, egem454hv.class);
+                startActivity(i);
+            }
+        });
+
+        egm450 = findViewById(R.id.egm450);
+        egm450.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, egm450.class);
+                startActivity(i);
+            }
+        });
+
+        apta = findViewById(R.id.apta);
+        apta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, apta.class);
                 startActivity(i);
             }
         });

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ge105">
+    tools:context=".eger553">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/salirege105"
+                    android:id="@+id/salireger553"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/salirege105"
-                    app:layout_constraintTop_toTopOf="@+id/salirege105"
+                    app:layout_constraintStart_toEndOf="@+id/salireger551"
+                    app:layout_constraintTop_toTopOf="@+id/salireger551"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/salirege105"
+                    app:layout_constraintStart_toEndOf="@+id/salireger551"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/ea105"
+                        android:src="@drawable/eger553"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGE105CAF - Gafas de protección"
+                        android:text="EGER553 - Rodillera con gel y soporte de tpe"
                         android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -152,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text=" * Diseño 2 en 1, gafas normales o gafas con junta de espuma y cinta para la cabeza"
+                android:text="* Rodilleras de alta resistencia para tareas que requieren estabilidad"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -161,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text=" * El 99,9 % de la luz UVA y UVB dañina se puede bloquear a través de lentes de PC, incluso con lentes transparentes estándar"
+                android:text="* Reduce la presión sobre las rodillas"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -170,7 +170,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text=" * Junta de espuma opcional para gran protección contra el polvo y partículas y diadema para un ajuste seguro"
+                android:text="* Multi-superficies, interior y exterior"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* La coraza de TPE proporciona estabilidad, tracción y agarre en la mayoría de las superficies"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* El núcleo de gel suave proporciona una excelente comodidad"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
