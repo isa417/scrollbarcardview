@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".garc"
+            android:exported="false" />
+        <activity
+            android:name=".ggee48305"
+            android:exported="false" />
+        <activity
+            android:name=".plastico"
+            android:exported="false" />
+        <activity
             android:name=".gg27805"
             android:exported="false" />
         <activity

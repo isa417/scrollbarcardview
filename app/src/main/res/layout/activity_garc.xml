@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".egg244lc">
+    tools:context=".garc">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/saliregg244lc"
+                    android:id="@+id/salirGNE"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg244lc"
-                    app:layout_constraintTop_toTopOf="@+id/saliregg244lc"
+                    app:layout_constraintStart_toEndOf="@+id/salirGNE"
+                    app:layout_constraintTop_toTopOf="@+id/salirGNE"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg244lc"
+                    app:layout_constraintStart_toEndOf="@+id/salirGNE"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/a244lc"
+                        android:src="@drawable/gne"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGG244LC - Guantes de TPR Resistente a Impacto"
+                        android:text="GNE - Guante De Nylon Negro Con Nitrilo En Palma"
                         android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -152,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manipulación de vidrio"
+                android:text="* Guante de nylon y nitrilo sólido negro, sin costuras con puño tejido de punto ribeteado"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -161,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Mantenimiento en general"
+                android:text="* Por sus colores oscuros tanto del nylon como del nitrilo hace de este guante una buena opción para disimular la suciedad"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -170,7 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Construcción"
+                android:text="* Excelente elasticidad y flexibilidad"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -179,7 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Tratamiento de basura y residuos"
+                android:text="* El nitrilo sólido da alta protección para trabajos que requieran buen agarre en seco."
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -188,7 +188,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Almacenamiento y transporte"
+                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:
+GNE-7: Talla chica    GNE-8: Talla mediana  GNE-9: Talla grande"
+                android:textStyle="italic"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 

@@ -26,6 +26,9 @@ public class scrollbarcardviewguantes extends AppCompatActivity {
     ImageView egg217;
     ImageView egg226;
     ImageView egg244lc;
+    ImageView g27805;
+    ImageView g48305;
+    ImageView gne;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +122,33 @@ public class scrollbarcardviewguantes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewguantes.this, egg244lc.class);
+                startActivity(i);
+            }
+        });
+
+        g27805 = findViewById(R.id.g27805);
+        g27805.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, plastico.class);
+                startActivity(i);
+            }
+        });
+
+        g48305 = findViewById(R.id.g48305);
+        g48305.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, ggee48305.class);
+                startActivity(i);
+            }
+        });
+
+        gne = findViewById(R.id.gne);
+        gne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, garc.class);
                 startActivity(i);
             }
         });

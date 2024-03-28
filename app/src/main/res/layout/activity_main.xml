@@ -396,6 +396,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/g27805"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
@@ -432,6 +433,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/g48305"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
@@ -576,6 +578,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/gne"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_gravity="center"
