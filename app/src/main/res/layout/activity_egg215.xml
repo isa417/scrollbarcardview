@@ -129,7 +129,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="$50.00 MXN"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -189,8 +188,27 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:textStyle="italic"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:
-EGG215M: Talla M         EGG215L: Talla L"
+                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textStyle="italic"
+                android:text="EGG215M: Talla M"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textStyle="italic"
+                android:text="EGG215L: Talla L"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -202,7 +220,7 @@ EGG215M: Talla M         EGG215L: Talla L"
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Comprar Ahora"
+                android:text="Solicitar Cotización"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

@@ -14,6 +14,11 @@ import androidx.core.view.WindowInsetsCompat;
 public class scrollbarcardviewcorporal extends AppCompatActivity {
 
     ImageView salir6;
+    ImageView apc;
+    ImageView egv0;
+    ImageView f8263cc;
+    ImageView overol;
+    ImageView pechera;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,51 @@ public class scrollbarcardviewcorporal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewcorporal.this, drawviewseg.class);
+                startActivity(i);
+            }
+        });
+
+        apc = findViewById(R.id.apc);
+        apc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewcorporal.this, apc.class);
+                startActivity(i);
+            }
+        });
+
+        egv0 = findViewById(R.id.egv0);
+        egv0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewcorporal.this, egv076ol.class);
+                startActivity(i);
+            }
+        });
+
+        f8263cc = findViewById(R.id.f8263cc);
+        f8263cc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewcorporal.this, f8263cc.class);
+                startActivity(i);
+            }
+        });
+
+        overol = findViewById(R.id.overol);
+        overol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewcorporal.this, otd.class);
+                startActivity(i);
+            }
+        });
+
+        pechera = findViewById(R.id.pechera);
+        pechera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewcorporal.this, pechera.class);
                 startActivity(i);
             }
         });

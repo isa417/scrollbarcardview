@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".egg207">
+    tools:context=".egv076ol">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/saliregg207"
+                    android:id="@+id/saliregv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
-                    app:layout_constraintTop_toTopOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirapc"
+                    app:layout_constraintTop_toTopOf="@+id/salirapc"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirapc"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/a207"
+                        android:src="@drawable/chaleco"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGG207 - Guantes Recubiertos de Micro Espuma de Nitrilo"
+                        android:text="EGV076OL - Chaleco Reflectante"
                         android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -151,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Ensamble de electrónicos"
+                android:text=" *  Equipos de carreteras"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -160,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manipulación de metal"
+                android:text=" * Construcción"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -169,48 +169,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manufactura"
+                android:text=" * Logística"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/descriptionTxt3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="* Trabajo general"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/descriptionTxtc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/descriptionTxtt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207M: Talla M"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/descriptionTxtp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207L: Talla L"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
 
 
             <androidx.appcompat.widget.AppCompatButton

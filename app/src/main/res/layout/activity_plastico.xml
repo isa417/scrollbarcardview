@@ -129,7 +129,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="$50.00 MXN"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -188,8 +187,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:
-G27805-9: Talla 9             G27805-10: Talla 10"
+                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="  *G27805-9: Talla 9"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="  *G27805-10: Talla 10"
                 android:textStyle="italic"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -202,7 +220,7 @@ G27805-9: Talla 9             G27805-10: Talla 10"
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Comprar Ahora"
+                android:text="Solicitar cotización"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

@@ -13,6 +13,33 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".pechera"
+            android:exported="false" />
+        <activity
+            android:name=".otd"
+            android:exported="false" />
+        <activity
+            android:name=".f8263cc"
+            android:exported="false" />
+        <activity
+            android:name=".egv076ol"
+            android:exported="false" />
+        <activity
+            android:name=".apc"
+            android:exported="false" />
+        <activity
+            android:name=".m6200"
+            android:exported="false" />
+        <activity
+            android:name=".rm8511"
+            android:exported="false" />
+        <activity
+            android:name=".mf2097"
+            android:exported="false" />
+        <activity
+            android:name=".mf5n11"
+            android:exported="false" />
+        <activity
             android:name=".apta"
             android:exported="false" />
         <activity

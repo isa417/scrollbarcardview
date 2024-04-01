@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregm453"
-                    app:layout_constraintTop_toTopOf="@+id/saliregm453"
+                    app:layout_constraintStart_toEndOf="@+id/saliregm452hv"
+                    app:layout_constraintTop_toTopOf="@+id/saliregm452hv"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregm453"
+                    app:layout_constraintStart_toEndOf="@+id/saliregm452hv"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -129,7 +129,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="$50.00 MXN"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -192,6 +191,16 @@
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
+            <TextView
+                android:id="@+id/descriptionTxt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Diseño compacto, ligero y portátil
+"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/addToCartBtn"
@@ -200,7 +209,7 @@
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Comprar Ahora"
+                android:text="Solicitar Cotización"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

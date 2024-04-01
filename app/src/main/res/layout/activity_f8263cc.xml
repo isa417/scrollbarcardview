@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".egg207">
+    tools:context=".f8263cc">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/saliregg207"
+                    android:id="@+id/salirfaja"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
-                    app:layout_constraintTop_toTopOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/saliregm453"
+                    app:layout_constraintTop_toTopOf="@+id/saliregm453"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/saliregm453"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/a207"
+                        android:src="@drawable/f8263"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGG207 - Guantes Recubiertos de Micro Espuma de Nitrilo"
+                        android:text="F8263C-C - Faja Elástica Reforzada"
                         android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -129,6 +129,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:text="Talla chica"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -151,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Ensamble de electrónicos"
+                android:text="* Tirantes elásticos de 1 1/4” (32mm) con hebilla de ajuste"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -160,7 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manipulación de metal"
+                android:text="* Confeccionado con elástico de 20.3 cm (8”)"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -169,7 +170,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manufactura"
+                android:text="* Cierre delantero de gancho y felpa"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -178,7 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Trabajo general"
+                android:text="* Tercer cinturón de polipropileno con ajuste de gancho y felpa, y broche de seguridad"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -187,28 +188,79 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
+                android:text="* Banda elástica de alta visibilidad de 10.1 cm (4”) de ancho"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtt"
+                android:id="@+id/descriptionTxt02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207M: Talla M"
+                android:text="* Costura reforzada “tipo paracaidista”"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtp"
+                android:id="@+id/descriptionTxt03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207L: Talla L"
+                android:text="* Con 4 varillas en espalda de 6” x 1/2” y reforzado con varilla central gruesa de 6 x 1 en la espalda"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Cuerpo totalmente elástico y ergonómico que se ajusta cómodamente al cuerpo del usuario"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Paletas de primer ajuste con cierre de gancho y felpa de gran adhesión"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Bandas elásticas de segundo ajuste con cierre de gancho y felpa de gran adhesión"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Incrustadas en la parte interior, cuenta con varillas plásticas de media luna, flexibles y de alta resistencia, las cuales brindan soporte a la espalda baja"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Bies cosidos que previenen el deshebra miento"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="* Ayuda a corregir la postura del usuario para prevenir lesiones en la zona lumbar y brindar mayor confort en largas jornadas, estando de pie o en actividades de carga y descarga"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 

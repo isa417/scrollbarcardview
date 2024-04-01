@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".egg207">
+    tools:context=".mf2097">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/saliregg207"
+                    android:id="@+id/salirmf2097"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
-                    app:layout_constraintTop_toTopOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirmf2097"
+                    app:layout_constraintTop_toTopOf="@+id/salirmf2097"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirmf2097"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/a207"
+                        android:src="@drawable/m3f5n12"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGG207 - Guantes Recubiertos de Micro Espuma de Nitrilo"
+                        android:text="3MF2097 - Filtro para Partículas para Vapor Orgánico"
                         android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
@@ -151,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Ensamble de electrónicos"
+                android:text="* Aprobación NIOSH"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -160,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manipulación de metal"
+                android:text="* Niveles de molestia por vapor orgánico"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -169,7 +169,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manufactura"
+                android:text="* Utilizar con Respiradores Reutilizables 3M™"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -178,7 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Trabajo general"
+                android:text="* Filtros para partículas P100"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -187,28 +187,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/descriptionTxtt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207M: Talla M"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/descriptionTxtp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207L: Talla L"
+                android:text="* Aprobado contra ambientes que contengan ciertas partículas aceitosas y no aceitosas. Recomendado por 3M para el alivio de los niveles de molestias por vapores orgánicos y para protección contra el ozono hasta 10 veces el OSHA PEL."
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -220,7 +199,7 @@
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Solicitar Cotización"
+                android:text="Solicitar cotización"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

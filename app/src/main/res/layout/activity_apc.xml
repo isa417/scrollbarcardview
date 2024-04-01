@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".egg207">
+    tools:context=".apc">
 
     <ScrollView
         android:id="@+id/scrollView3"
@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/saliregg207"
+                    android:id="@+id/salirapc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -41,8 +41,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
-                    app:layout_constraintTop_toTopOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirapc"
+                    app:layout_constraintTop_toTopOf="@+id/salirapc"
                     app:layout_constraintVertical_bias="0.533"
                     tools:padding="2dp" />
 
@@ -55,7 +55,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/imageView7"
                     app:layout_constraintEnd_toStartOf="@+id/imageView7"
                     app:layout_constraintHorizontal_bias="0.969"
-                    app:layout_constraintStart_toEndOf="@+id/saliregg207"
+                    app:layout_constraintStart_toEndOf="@+id/salirapc"
                     app:layout_constraintTop_toTopOf="@+id/imageView7"
                     tools:padding="2dp" />
 
@@ -88,7 +88,7 @@
                         android:id="@+id/imageView9"
                         android:layout_width="357dp"
                         android:layout_height="264dp"
-                        android:src="@drawable/a207"
+                        android:src="@drawable/apc"
                         app:layout_constraintBottom_toBottomOf="@+id/view5"
                         app:layout_constraintEnd_toEndOf="@+id/view5"
                         app:layout_constraintStart_toStartOf="@+id/view5"
@@ -118,9 +118,9 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="EGG207 - Guantes Recubiertos de Micro Espuma de Nitrilo"
+                        android:text="CASCO AP"
                         android:textColor="@color/black"
-                        android:textSize="16dp"
+                        android:textSize="30dp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -151,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Ensamble de electrónicos"
+                android:text=" *  Casco de protección a la cabeza, tipo cachucha. Está diseñado para proteger contra impactos y tensión eléctrica ya que reduce la fuerza de impacto de objetos en caída y el peligro de contacto con conductores energizados a alta tensión eléctrica de hasta 20 000 V (fase a tierra)."
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -160,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manipulación de metal"
+                android:text=" * Sistema de ajuste: Matraca"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -169,7 +169,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Manufactura"
+                android:text=" * Puntos de anclaje: Cuatro"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
@@ -178,40 +178,117 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="* Trabajo general"
+                android:text=" * Banda de sudor absorbente."
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtc"
+                android:id="@+id/descriptionTxt4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
+                android:text=" * Ranura para accesorios (orejeras, protectores faciales, caretas, etc.)."
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtt"
+                android:id="@+id/descriptionTxt5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207M: Talla M"
+                android:text=" * Orificio para barbiquejo"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtp"
+                android:id="@+id/descriptionTxt6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
-                android:text="EGG207L: Talla L"
+                android:text="Cotízalo con los siguientes códigos dependiendo del color:"
                 android:textColor="@color/black"
+                android:textStyle="italic"
                 android:textSize="14sp" />
 
+            <TextView
+                android:id="@+id/descriptionTxt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCAM:  Amarillo"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCAZ:  Azul"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCBL: Blanco"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCGR: Gris"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCNA: Naranja"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCNE: Negro"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCRO: Rosa"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=" * APCVE: Verde"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="14sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/addToCartBtn"

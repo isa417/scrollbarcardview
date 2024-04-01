@@ -129,7 +129,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="$50.00 MXN"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -184,13 +183,41 @@
                 android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/descriptionTxt54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxt48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="G48305-9: TALLA 9"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/descriptionTxtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="G48305-8: TALLA 8"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
                 android:id="@+id/descriptionTxtc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Cotízalo con los siguientes códigos dependiendo de la talla:
-G48305-9: TALLA 9     G48305-8: TALLA 8     G48305-7: TALLA 7
-"
+                android:text="G48305-7: TALLA 7"
                 android:textStyle="italic"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -203,7 +230,7 @@ G48305-9: TALLA 9     G48305-8: TALLA 8     G48305-7: TALLA 7
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Comprar Ahora"
+                android:text="Solicitar Cotización"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

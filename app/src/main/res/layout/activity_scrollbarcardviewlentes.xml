@@ -374,7 +374,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="MIST-6-500-50"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -411,7 +411,7 @@
                         android:layout_gravity="center_horizontal"
                         android:text="MIST-6-500-075"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 

@@ -120,12 +120,12 @@
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="151dp"
+                    android:layout_width="170dp"
                     android:layout_height="29dp"
                     android:layout_marginTop="-70dp"
                     android:background="@drawable/blue_boton"
                     android:gravity="center"
-                    android:text="¡COMPRAR AHORA!"
+                    android:text="¡SOLICITA COTIZACIÓN!"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -323,11 +323,9 @@
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/view1"
                 android:layout_width="match_parent"
-                android:layout_height="109dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp" />
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
         </LinearLayout>
     </ScrollView>
