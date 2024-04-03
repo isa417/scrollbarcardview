@@ -211,7 +211,7 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtc"
+                android:id="@+id/descriptionTxtq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -221,7 +221,7 @@
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/descriptionTxtc"
+                android:id="@+id/descriptionTxtm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"

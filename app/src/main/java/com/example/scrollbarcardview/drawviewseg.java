@@ -23,7 +23,7 @@ public class drawviewseg extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drawview);
+        setContentView(R.layout.activity_drawviewseg);
 
         guantes = findViewById(R.id.guantes);
         guantes.setOnClickListener(new View.OnClickListener() {
@@ -83,7 +83,7 @@ public class drawviewseg extends AppCompatActivity {
        salirmenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(drawviewseg.this, menu_inicio.class);
+                Intent i = new Intent(drawviewseg.this, MenuInicioActivity.class);
                 startActivity(i);
             }
         });

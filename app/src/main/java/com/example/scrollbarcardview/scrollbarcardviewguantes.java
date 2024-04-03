@@ -34,7 +34,7 @@ public class scrollbarcardviewguantes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_scrollbarcardviewguantes);
 
         salir2 = findViewById(R.id.salir2);
         salir2.setOnClickListener(new View.OnClickListener() {

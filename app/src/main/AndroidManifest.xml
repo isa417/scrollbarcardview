@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,17 @@
         android:roundIcon="@drawable/orss"
         android:supportsRtl="true"
         android:theme="@style/Theme.Scrollbarcardview"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+        <activity
+            android:name=".carritoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cuentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoritoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_favorito" />
         <activity
             android:name=".pechera"
             android:exported="false" />
@@ -65,9 +75,6 @@
             android:exported="false" />
         <activity
             android:name=".plastico"
-            android:exported="false" />
-        <activity
-            android:name=".gg27805"
             android:exported="false" />
         <activity
             android:name=".egg244lc"
@@ -148,8 +155,8 @@
             android:name=".drawviewseg"
             android:exported="false" />
         <activity
-            android:name=".menu_inicio"
-            android:exported="true">
+            android:name=".MenuInicioActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -162,6 +169,10 @@
         <activity
             android:name=".scrollbarcardviewlentes"
             android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
