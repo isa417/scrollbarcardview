@@ -33,7 +33,7 @@
                     tools:padding="8dp" />
 
                 <ImageView
-                    android:id="@+id/imageView7"
+                    android:id="@+id/ventana_favoritos"
                     android:layout_width="31dp"
                     android:layout_height="30dp"
                     android:layout_marginEnd="16dp"
@@ -52,11 +52,11 @@
                     android:layout_height="29dp"
                     android:layout_marginEnd="8dp"
                     android:src="@drawable/share"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                    app:layout_constraintBottom_toBottomOf="@+id/ventana_favoritos"
+                    app:layout_constraintEnd_toStartOf="@+id/ventana_favoritos"
                     app:layout_constraintHorizontal_bias="0.969"
                     app:layout_constraintStart_toEndOf="@+id/salirIMAF"
-                    app:layout_constraintTop_toTopOf="@+id/imageView7"
+                    app:layout_constraintTop_toTopOf="@+id/ventana_favoritos"
                     tools:padding="2dp" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>

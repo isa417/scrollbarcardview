@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,7 @@ public class MenuInicioActivity extends AppCompatActivity {
     ArrayList<PersonajeVo> listaPersonajes;
     RecyclerView recyclerPersonajes;
     AdaptadorPersonajes adapter;
+    TextView btn_cotización;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,17 @@ public class MenuInicioActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        btn_cotización = findViewById(R.id.btn_cotización);
+        btn_cotización.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuInicioActivity.this, carritoActivity.class);
+                startActivity(i);
+            }
+        });
+
+
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.bottom_home);

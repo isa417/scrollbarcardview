@@ -11,14 +11,17 @@
         android:icon="@drawable/baseline_favorite_24"
         android:title="Favoritos"/>
 
-    <item
-        android:id="@+id/bottom_count"
-        android:icon="@drawable/baseline_face_6_24"
-        android:title="Cuenta"/>
 
     <item
         android:id="@+id/bottom_car"
         android:icon="@drawable/baseline_directions_car_24"
         android:title="Carrito"/>
+
+    <item
+        android:id="@+id/bottom_count"
+        android:icon="@drawable/baseline_face_6_24"
+        android:title="Cuenta"/>
+
+
 
 </menu>

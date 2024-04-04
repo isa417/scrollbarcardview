@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/amaranth</item>
         <item>@font/amaranth_bold_italic</item>
         <item>@font/anton</item>
         <item>@font/archivo_narrow_bold</item>
         <item>@font/bangers</item>
         <item>@font/chau_philomene_one</item>
         <item>@font/faster_one</item>
+        <item>@font/sansita_bold</item>
         <item>@font/squada_one</item>
         <item>@font/supermercado_one</item>
     </array>

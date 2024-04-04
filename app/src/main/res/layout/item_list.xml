@@ -46,7 +46,7 @@
                 android:fontFamily="@font/archivo_narrow_bold"
                 android:text="Descripción"
                 android:textColor="@color/black"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
