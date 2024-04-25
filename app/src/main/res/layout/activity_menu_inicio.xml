@@ -209,7 +209,7 @@
                         android:background="@drawable/btn_cat_background">
 
                         <ImageView
-                            android:id="@+id/imageView35"
+                            android:id="@+id/industria"
                             android:layout_width="40dp"
                             android:layout_height="38dp"
                             app:layout_constraintBottom_toBottomOf="parent"

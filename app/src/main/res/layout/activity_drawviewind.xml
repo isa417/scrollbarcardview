@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drawviewind">
+
+
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:background="@drawable/bg_view"/>
+
+        <ImageView
+            android:id="@+id/salirmenuindustria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/flecha"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
+
+
+        <TextView
+            android:layout_width="401dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="INDUSTRIA BY TORSS"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="15"
+            android:columnCount="2"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="-80dp"
+            android:layout_below="@+id/top_view">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="35dp"
+                android:layout_height="155dp"
+                android:layout_row="0"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="255dp"
+                    android:layout_height="193dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/bosch"
+                        android:layout_width="254dp"
+                        android:layout_height="141dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/boschlogo" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+
+
+
+

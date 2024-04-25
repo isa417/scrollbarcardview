@@ -24,6 +24,7 @@ public class MenuInicioActivity extends AppCompatActivity {
     RecyclerView recyclerPersonajes;
     AdaptadorPersonajes adapter;
     TextView btn_cotización;
+    ImageView industria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,17 @@ public class MenuInicioActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+        industria = findViewById(R.id.industria);
+        industria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuInicioActivity.this, drawviewind.class);
+                startActivity(i);
+            }
+        });
+
 
         btn_cotización = findViewById(R.id.btn_cotización);
         btn_cotización.setOnClickListener(new View.OnClickListener() {
