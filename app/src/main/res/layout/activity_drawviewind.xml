@@ -45,59 +45,87 @@
             android:textSize="25sp" />
 
 
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:rowCount="15"
-            android:columnCount="2"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginTop="-80dp"
-            android:layout_below="@+id/top_view">
-
-
-            <androidx.cardview.widget.CardView
-
-                android:layout_width="35dp"
-                android:layout_height="155dp"
-                android:layout_row="0"
-                android:layout_rowWeight="0"
-                android:layout_column="0"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                android:layout_marginTop="40dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="5dp">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_view"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="25dp"
+        android:columnCount="2"
+        android:rowCount="15">
 
 
-                <LinearLayout
-                    android:layout_width="255dp"
-                    android:layout_height="193dp"
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="35dp"
+            android:layout_height="155dp"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
+
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="193dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bosch"
+                    android:layout_width="254dp"
+                    android:layout_height="141dp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/bosch"
-                        android:layout_width="254dp"
-                        android:layout_height="141dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/boschlogo" />
+                    app:srcCompat="@drawable/boschlogo" />
 
 
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
 
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="35dp"
+            android:layout_height="143dp"
+            android:layout_row="1"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="2"
+            android:layout_margin="12dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
 
 
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="193dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/weston"
+                    android:layout_width="268dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/weston1" />
 
 
-        </GridLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
 
-    </RelativeLayout>
+    </GridLayout>
+
+
+</RelativeLayout>
 
 
 

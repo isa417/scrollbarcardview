@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".amoladoras">
+    tools:context=".baterias">
 
 
     <ImageView
-        android:id="@+id/saliramoladoras"
+        android:id="@+id/salirbaterias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -28,6 +28,8 @@
         android:src="@drawable/logos">
 
     </ImageView>
+
+
 
 
     <ScrollView
@@ -55,7 +57,11 @@
                 app:cardCornerRadius="15dp"
                 app:cardElevation="12dp">
 
-                <!-- Contenido del primer CardView -->
+
+
+
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="123dp"
@@ -64,17 +70,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/misto18"
-                        android:layout_width="124dp"
-                        android:layout_height="82dp"
+                        android:id="@+id/ge101imaf"
+                        android:layout_width="112dp"
+                        android:layout_height="94dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws180li" />
+                        android:src="@drawable/gba18v20ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 180-LI"
+                        android:text="GBA 18V 2,0 AH"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -101,17 +107,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg201"
-                        android:layout_width="105dp"
-                        android:layout_height="90dp"
+                        android:id="@+id/ge103c"
+                        android:layout_width="110dp"
+                        android:layout_height="94dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws1810" />
+                        android:src="@drawable/gba18v40ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10"
+                        android:text="GBA 18V 4,0 AH"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -138,17 +144,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg206"
-                        android:layout_width="100dp"
-                        android:layout_height="92dp"
+                        android:id="@+id/ge104"
+                        android:layout_width="107dp"
+                        android:layout_height="83dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws1810p" />
+                        android:src="@drawable/gba18v50ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 P"
+                        android:text="GBA 18V 5,0 AH"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -175,19 +181,19 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg207"
-                        android:layout_width="112dp"
-                        android:layout_height="98dp"
+                        android:id="@+id/ge105"
+                        android:layout_width="103dp"
+                        android:layout_height="92dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gwa18v10pc" />
+                        android:src="@drawable/procore18v40ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 PC"
+                        android:text="PROCORE 18V 4,0 AH"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -212,58 +218,19 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg215"
-                        android:layout_width="128dp"
-                        android:layout_height="93dp"
+                        android:id="@+id/ge109"
+                        android:layout_width="99dp"
+                        android:layout_height="92dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws18v10psc" />
+                        android:src="@drawable/procore18v40ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 PSC"
+                        android:text="PROCORE 18V 8,0 AH"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_row="5"
-                android:layout_rowWeight="1"
-                android:layout_column="0"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="123dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/egg244lc"
-                        android:layout_width="114dp"
-                        android:layout_height="88dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/gdr120li" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GDR 120-LI"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -272,7 +239,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_row="5"
+                android:layout_row="3"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
                 android:layout_columnWeight="1"
@@ -288,23 +255,101 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/g27805"
-                        android:layout_width="93dp"
+                        android:id="@+id/ge111"
+                        android:layout_width="95dp"
                         android:layout_height="91dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gdr12v110" />
+                        android:src="@drawable/procore18v120ah" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GDR 12V-110"
+                        android:text="PROCORE 18V 12,0 AH"
                         android:textColor="@color/black"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/egg217"
+                        android:layout_width="107dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gba12v20ah" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GBA 12V 2,0 AH"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ge203saf"
+                        android:layout_width="163dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gba12v40ah" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GBA 12V 4,0 AH"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
 
 
 

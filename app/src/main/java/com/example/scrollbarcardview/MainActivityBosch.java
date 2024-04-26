@@ -16,6 +16,14 @@ public class MainActivityBosch extends AppCompatActivity {
     ImageView salirmenubosch;
     ImageView matilloATOR1;
     ImageView llavesimpacto;
+    ImageView amoladoras;
+    ImageView perforadores;
+    ImageView aplicacionesdiversas;
+    ImageView bateriabanner;
+    ImageView cargadores;
+    ImageView herramientamadera;
+    ImageView herramientabanco;
+    ImageView pulidora;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +54,78 @@ public class MainActivityBosch extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivityBosch.this, llavesdeimpacto.class);
+                startActivity(i);
+            }
+        });
+
+        amoladoras = findViewById(R.id.amoladoras);
+        amoladoras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, amoladoras.class);
+                startActivity(i);
+            }
+        });
+
+        perforadores = findViewById(R.id.perforadores);
+        perforadores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, martillosperforadores.class);
+                startActivity(i);
+            }
+        });
+
+        aplicacionesdiversas = findViewById(R.id.aplicacionesdiversas);
+        aplicacionesdiversas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, herramientasdiversas.class);
+                startActivity(i);
+            }
+        });
+
+        bateriabanner = findViewById(R.id.bateriabanner);
+        bateriabanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, baterias.class);
+                startActivity(i);
+            }
+        });
+
+        cargadores = findViewById(R.id.cargadores);
+        cargadores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, cargadores.class);
+                startActivity(i);
+            }
+        });
+
+        herramientamadera = findViewById(R.id.herramientamadera);
+        herramientamadera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, herramientasmadera.class);
+                startActivity(i);
+            }
+        });
+
+        herramientabanco = findViewById(R.id.herramientabanco);
+        herramientabanco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, herramientasbanco.class);
+                startActivity(i);
+            }
+        });
+
+        pulidora = findViewById(R.id.pulidora);
+        pulidora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, pulidorarectificadora.class);
                 startActivity(i);
             }
         });

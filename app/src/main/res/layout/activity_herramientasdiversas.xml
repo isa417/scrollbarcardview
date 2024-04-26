@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".amoladoras">
+    tools:context=".herramientasdiversas">
 
 
     <ImageView
-        android:id="@+id/saliramoladoras"
+        android:id="@+id/salirMadera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -28,6 +28,8 @@
         android:src="@drawable/logos">
 
     </ImageView>
+
+
 
 
     <ScrollView
@@ -64,17 +66,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/misto18"
-                        android:layout_width="124dp"
-                        android:layout_height="82dp"
+                        android:id="@+id/ge101imaf"
+                        android:layout_width="93dp"
+                        android:layout_height="94dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws180li" />
+                        android:src="@drawable/gws12v76" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 180-LI"
+                        android:text="GWS 12V-76"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -101,17 +103,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg201"
-                        android:layout_width="105dp"
-                        android:layout_height="90dp"
+                        android:id="@+id/ge103c"
+                        android:layout_width="89dp"
+                        android:layout_height="91dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws1810" />
+                        android:src="@drawable/gex12v125" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10"
+                        android:text="GEX 12V-125"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -138,17 +140,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg206"
-                        android:layout_width="100dp"
-                        android:layout_height="92dp"
+                        android:id="@+id/ge104"
+                        android:layout_width="91dp"
+                        android:layout_height="84dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws1810p" />
+                        android:src="@drawable/gks12v26" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 P"
+                        android:text="GKS 12V-26"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -175,17 +177,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg207"
-                        android:layout_width="112dp"
-                        android:layout_height="98dp"
+                        android:id="@+id/ge105"
+                        android:layout_width="92dp"
+                        android:layout_height="87dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gwa18v10pc" />
+                        android:src="@drawable/gst12v70" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 PC"
+                        android:text="GST 12V-70"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -212,17 +214,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg215"
-                        android:layout_width="128dp"
-                        android:layout_height="93dp"
+                        android:id="@+id/ge109"
+                        android:layout_width="99dp"
+                        android:layout_height="92dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gws18v10psc" />
+                        android:src="@drawable/gsa12vli" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GWS 18V-10 PSC"
+                        android:text="GSA 12V-LI"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -230,7 +232,116 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ge111"
+                        android:layout_width="95dp"
+                        android:layout_height="91dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gus12v300" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GUS 12V-300"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/egg217"
+                        android:layout_width="101dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/propruner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="PRO PRUNER"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ge203saf"
+                        android:layout_width="147dp"
+                        android:layout_height="99dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gho12v20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GHO 12V-20"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
@@ -251,19 +362,19 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg244lc"
-                        android:layout_width="114dp"
-                        android:layout_height="88dp"
+                        android:id="@+id/mist6500050"
+                        android:layout_width="125dp"
+                        android:layout_height="97dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gdr120li" />
+                        android:src="@drawable/gas12vli" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GDR 120-LI"
+                        android:text="GAS 12V-LI"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -288,23 +399,62 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/g27805"
-                        android:layout_width="93dp"
-                        android:layout_height="91dp"
+                        android:id="@+id/mist75"
+                        android:layout_width="105dp"
+                        android:layout_height="97dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gdr12v110" />
+                        android:src="@drawable/glo12v300" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="GDR 12V-110"
+                        android:text="GLI 12V-300"
                         android:textColor="@color/black"
-                        android:textSize="17sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="123dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/msacopper"
+                        android:layout_width="105dp"
+                        android:layout_height="89dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gli12v330" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="GLI 12V-330"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
 
 
 

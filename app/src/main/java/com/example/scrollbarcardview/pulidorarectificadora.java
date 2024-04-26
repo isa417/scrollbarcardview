@@ -11,21 +11,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class amoladoras extends AppCompatActivity {
+public class pulidorarectificadora extends AppCompatActivity {
 
-    ImageView saliramoladoras;
+    ImageView salirherramientapulidora;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_amoladoras);
+        setContentView(R.layout.activity_pulidorarectificadora);
 
-        saliramoladoras = findViewById(R.id.saliramoladoras);
-        saliramoladoras.setOnClickListener(new View.OnClickListener() {
+        salirherramientapulidora = findViewById(R.id.salirherramientapulidora);
+        salirherramientapulidora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(amoladoras.this, MainActivityBosch.class);
+                Intent i = new Intent(pulidorarectificadora.this, MainActivityBosch.class);
                 startActivity(i);
             }
         });

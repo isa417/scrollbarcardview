@@ -11,21 +11,23 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class amoladoras extends AppCompatActivity {
+public class herramientasbanco extends AppCompatActivity {
 
-    ImageView saliramoladoras;
+
+    ImageView salirherramientasbanco;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_amoladoras);
+        setContentView(R.layout.activity_herramientasbanco);
 
-        saliramoladoras = findViewById(R.id.saliramoladoras);
-        saliramoladoras.setOnClickListener(new View.OnClickListener() {
+
+        salirherramientasbanco = findViewById(R.id.salirherramientasbanco);
+        salirherramientasbanco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(amoladoras.this, MainActivityBosch.class);
+                Intent i = new Intent(herramientasbanco.this, MainActivityBosch.class);
                 startActivity(i);
             }
         });

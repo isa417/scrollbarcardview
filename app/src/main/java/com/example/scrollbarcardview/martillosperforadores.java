@@ -11,25 +11,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class amoladoras extends AppCompatActivity {
+public class martillosperforadores extends AppCompatActivity {
 
-    ImageView saliramoladoras;
+    ImageView salirmartillos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_amoladoras);
+        setContentView(R.layout.activity_martillosperforadores);
 
-        saliramoladoras = findViewById(R.id.saliramoladoras);
-        saliramoladoras.setOnClickListener(new View.OnClickListener() {
+        salirmartillos = findViewById(R.id.salirmartillos);
+        salirmartillos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(amoladoras.this, MainActivityBosch.class);
+                Intent i = new Intent(martillosperforadores.this, MainActivityBosch.class);
                 startActivity(i);
             }
         });
-
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
