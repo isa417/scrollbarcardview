@@ -77,14 +77,14 @@
 
     <Button
         android:id="@+id/btn_cerrarsesion"
-        android:layout_width="265dp"
-        android:layout_height="19dp"
+        android:layout_width="248dp"
+        android:layout_height="53dp"
         android:layout_above="@+id/bottomNavigationView"
         android:layout_below="@+id/tv_correo"
         android:layout_alignEnd="@+id/tv_correo"
-        android:layout_marginTop="156dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="224dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="197dp"
         android:backgroundTint="@color/blue"
         android:text="Cerrar Sesión"
         android:textColor="@android:color/white" />
