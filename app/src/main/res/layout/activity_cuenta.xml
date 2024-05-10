@@ -8,13 +8,86 @@
     android:layout_height="match_parent"
     tools:context=".cuentaActivity">
 
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/banner" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cuenta"
-        android:textSize="40sp"
-        android:textColor="@color/blue"
-        android:layout_centerInParent="true"/>
+        android:layout_alignBottom="@+id/top_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:gravity=""
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="15dp"
+        android:text="DATOS USUARIO"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_razonsocial"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Razon Social: "
+        android:textSize="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_razonsocial"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Nombre: "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_telefono"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nombre"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Telefono: "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_telefono"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Correo: "
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_cerrarsesion"
+        android:layout_width="265dp"
+        android:layout_height="19dp"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_below="@+id/tv_correo"
+        android:layout_alignEnd="@+id/tv_correo"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="224dp"
+        android:backgroundTint="@color/blue"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/white" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -25,7 +98,6 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="-2dp"
-        android:layout_marginTop="30dp"
         android:elevation="2dp"
         app:menu="@menu/botom_menu"
         app:itemIconSize="30dp"

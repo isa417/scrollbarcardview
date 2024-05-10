@@ -13,6 +13,17 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".pulidorarectificadora"
             android:exported="false" />
         <activity
@@ -192,20 +203,13 @@
             android:exported="false" />
         <activity
             android:name=".MenuInicioActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".scrollbarcardviewguantes"
             android:exported="false" /> <!-- Agrega la declaración de la actividad scrollbarcardviewlentes -->
         <activity
             android:name=".scrollbarcardviewlentes"
             android:exported="false" />
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

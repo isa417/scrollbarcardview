@@ -8,13 +8,66 @@
     android:layout_height="match_parent"
     tools:context=".carritoActivity">
 
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:background="@drawable/banner" />
+
+
+
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carrito"
-        android:textSize="40sp"
-        android:textColor="@color/blue"
-        android:layout_centerInParent="true"/>
+        android:id="@+id/textView"
+        android:layout_width="413dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/top_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="45dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="PEDIDOS Y COTIZACIONES"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_below="@+id/top_view"
+        android:layout_marginBottom="-20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecycleId1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="CheckedTextView" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

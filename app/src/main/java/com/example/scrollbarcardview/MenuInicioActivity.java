@@ -26,6 +26,7 @@ public class MenuInicioActivity extends AppCompatActivity {
     TextView btn_cotización;
     ImageView industria;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,7 @@ public class MenuInicioActivity extends AppCompatActivity {
         recyclerPersonajes.setAdapter(adapter);
 
         llenarPersonajes();
+
 
         seguridad = findViewById(R.id.seguridad);
         seguridad.setOnClickListener(new View.OnClickListener() {
