@@ -29,13 +29,14 @@
 
 
     <TextView
-        android:layout_width="401dp"
-        android:layout_height="46dp"
+        android:layout_width="229dp"
+        android:layout_height="66dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="-15dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
@@ -48,26 +49,26 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="700dp">
+        android:layout_height="731dp">
 
 
         <GridLayout
-            android:layout_width="375dp"
-            android:layout_height="693dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:columnCount="2"
             android:rowCount="30">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="35dp"
-                android:layout_height="191dp"
+                android:layout_width="111dp"
+                android:layout_height="145dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
+                android:layout_marginTop="550dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp">
 
@@ -106,6 +107,7 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
+                android:layout_marginTop="550dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="12dp">
 
@@ -200,12 +202,12 @@
                         android:src="@drawable/martillo" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:gravity="center_horizontal"
                         android:text="ATORNILLADORES"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -480,4 +482,4 @@
     </ScrollView>
 
 
-    </LinearLayout>
+</LinearLayout>

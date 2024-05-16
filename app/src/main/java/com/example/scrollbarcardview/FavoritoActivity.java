@@ -38,18 +38,21 @@ public class FavoritoActivity extends AppCompatActivity {
 
                 return true;
 
-            } else if (itemId == R.id.bottom_count) {
-                startActivity(new Intent(getApplicationContext(), cuentaActivity.class));
-                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-                finish();
-                return true;
-
             } else if (itemId == R.id.bottom_car) {
                 startActivity(new Intent(getApplicationContext(), carritoActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;
+
+
+            } else if (itemId == R.id.bottom_count) {
+                startActivity(new Intent(getApplicationContext(), cuentaActivity.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                finish();
+                return true;
             }
+
+
             return false;
         });
     }

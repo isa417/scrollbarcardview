@@ -38,17 +38,15 @@
 
 
         <GridLayout
-            android:layout_width="375dp"
-            android:layout_height="693dp"
-            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="16dp"
-            android:layout_marginRight="15dp"
             android:columnCount="2"
             android:rowCount="30">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="166dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -60,26 +58,42 @@
                 <!-- Contenido del primer CardView -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="166dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge101imaf"
-                        android:layout_width="93dp"
+                        android:layout_width="183dp"
                         android:layout_height="94dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gws12v76" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="113dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GWS 12V-76"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -97,7 +111,7 @@
                 <!-- Contenido del segundo CardView -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="174dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -109,14 +123,30 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gex12v125" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GEX 12V-125"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -134,26 +164,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="164dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge104"
-                        android:layout_width="91dp"
-                        android:layout_height="84dp"
+                        android:layout_width="105dp"
+                        android:layout_height="101dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gks12v26" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="114dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GKS 12V-26"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -171,7 +217,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="163dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -183,21 +229,37 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gst12v70" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="111dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 12V-70"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="160dp"
                 android:layout_row="3"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -208,26 +270,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="164dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge109"
-                        android:layout_width="99dp"
-                        android:layout_height="92dp"
+                        android:layout_width="123dp"
+                        android:layout_height="98dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gsa12vli" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GSA 12V-LI"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="112dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GSA 12V-LI"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -245,7 +323,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="162dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -253,25 +331,41 @@
                     <ImageView
                         android:id="@+id/ge111"
                         android:layout_width="95dp"
-                        android:layout_height="91dp"
+                        android:layout_height="92dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gus12v300" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GUS 12V-300"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="158dp"
                 android:layout_row="4"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -282,26 +376,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="156dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/egg217"
-                        android:layout_width="101dp"
-                        android:layout_height="85dp"
+                        android:layout_width="129dp"
+                        android:layout_height="90dp"
                         android:layout_gravity="center"
                         android:src="@drawable/propruner" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="119dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="PRO PRUNER"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -319,7 +429,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="160dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -331,21 +441,37 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gho12v20" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="116dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GHO 12V-20"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="159dp"
                 android:layout_row="5"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -356,33 +482,48 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="159dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/mist6500050"
-                        android:layout_width="125dp"
-                        android:layout_height="97dp"
+                        android:layout_width="147dp"
+                        android:layout_height="101dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gas12vli" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="112dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GAS 12V-LI"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/carrito_copras" />
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="173dp"
                 android:layout_row="5"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
@@ -393,7 +534,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="162dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -405,21 +546,37 @@
                         android:layout_gravity="center"
                         android:src="@drawable/glo12v300" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GLI 12V-300"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GLI 12V-300"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="166dp"
                 android:layout_row="6"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -430,7 +587,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="164dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -442,14 +599,30 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gli12v330" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GLI 12V-330"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="113dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GLI 12V-330"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

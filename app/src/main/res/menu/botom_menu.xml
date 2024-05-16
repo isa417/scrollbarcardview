@@ -16,6 +16,7 @@
         android:id="@+id/bottom_car"
         android:icon="@drawable/baseline_add_shopping_cart_24"
         android:title="Carrito"/>
+    
 
     <item
         android:id="@+id/bottom_count"

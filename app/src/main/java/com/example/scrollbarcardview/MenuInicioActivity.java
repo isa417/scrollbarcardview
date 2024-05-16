@@ -89,20 +89,23 @@ public class MenuInicioActivity extends AppCompatActivity {
             int itemId = item.getItemId();
 
             if (itemId == R.id.bottom_home) {
-                // Lógica para el ítem home
                 return true;
+
             } else if (itemId == R.id.bottom_favoritos) {
                 startActivity(new Intent(getApplicationContext(), FavoritoActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;
-            } else if (itemId == R.id.bottom_count) {
-                startActivity(new Intent(getApplicationContext(), cuentaActivity.class));
+
+            } else if (itemId == R.id.bottom_car) {
+                startActivity(new Intent(getApplicationContext(), carritoActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;
-            } else if (itemId == R.id.bottom_car) {
-                startActivity(new Intent(getApplicationContext(), carritoActivity.class));
+
+
+            } else if (itemId == R.id.bottom_count) {
+                startActivity(new Intent(getApplicationContext(), cuentaActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;

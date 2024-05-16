@@ -51,21 +51,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        </LinearLayout>
-
-        <ImageView
-            android:id="@+id/Carrito"
-            android:layout_width="50dp"
-            android:layout_height="144dp"
-            android:layout_gravity="end|center_vertical"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/ic_cart" />
 
 
     </LinearLayout>

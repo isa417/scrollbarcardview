@@ -55,15 +55,17 @@ public class cuentaActivity extends AppCompatActivity {
                 finish();
                 return true;
 
-            } else if (itemId == R.id.bottom_count) {
-                return true;
-
             } else if (itemId == R.id.bottom_car) {
                 startActivity(new Intent(getApplicationContext(), carritoActivity.class));
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
                 finish();
                 return true;
+
+
+            } else if (itemId == R.id.bottom_count) {
+                return true;
             }
+
             return false;
         });
     }

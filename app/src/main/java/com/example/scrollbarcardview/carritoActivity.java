@@ -50,6 +50,11 @@ public class carritoActivity extends AppCompatActivity {
                 finish();
                 return true;
 
+            } else if (itemId == R.id.bottom_car) {
+
+                return true;
+
+
 
             } else if (itemId == R.id.bottom_count) {
                 startActivity(new Intent(getApplicationContext(), cuentaActivity.class));
@@ -57,9 +62,6 @@ public class carritoActivity extends AppCompatActivity {
                 finish();
                 return true;
 
-            } else if (itemId == R.id.bottom_car) {
-
-                return true;
             }
             return false;
         });

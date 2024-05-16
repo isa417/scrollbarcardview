@@ -15,7 +15,7 @@ public class drawviewind extends AppCompatActivity {
 
 
     ImageView salirmenuindustria;
-    ImageView bosch;
+    ImageView bosch, weston;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,15 @@ public class drawviewind extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(drawviewind.this, MainActivityBosch.class);
+                startActivity(i);
+            }
+        });
+
+        weston = findViewById(R.id.weston);
+        weston.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(drawviewind.this, WestonSoldadura.class);
                 startActivity(i);
             }
         });
