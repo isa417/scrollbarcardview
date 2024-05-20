@@ -46,7 +46,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="161dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -58,27 +58,44 @@
                 <!-- Contenido del primer CardView -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="161dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge101imaf"
-                        android:layout_width="106dp"
-                        android:layout_height="98dp"
+                        android:layout_width="109dp"
+                        android:layout_height="110dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gks130" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GKS 130"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="93dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GKS 130"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity=""
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -95,26 +112,43 @@
                 <!-- Contenido del segundo CardView -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="161dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge103c"
-                        android:layout_width="109dp"
-                        android:layout_height="98dp"
+                        android:layout_width="120dp"
+                        android:layout_height="109dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gks150" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="92dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GKS 150"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -132,26 +166,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="163dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge104"
-                        android:layout_width="112dp"
-                        android:layout_height="93dp"
+                        android:layout_width="125dp"
+                        android:layout_height="103dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gks2065" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GKS 20-65"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -169,26 +219,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="163dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/ge105"
-                        android:layout_width="97dp"
-                        android:layout_height="87dp"
+                        android:layout_width="111dp"
+                        android:layout_height="92dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gks235" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GKS 235"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -205,8 +271,8 @@
                 app:cardElevation="12dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_width="190dp"
+                    android:layout_height="138dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -218,14 +284,29 @@
                         android:layout_gravity="center"
                         android:src="@drawable/fsn1400" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="116dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="FSN 1400"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -243,7 +324,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="138dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -255,14 +336,30 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gkf550" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GKF 550"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -280,7 +377,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="153dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -292,14 +389,29 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gof130" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="92dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GOF 130"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -317,7 +429,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="161dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -329,21 +441,37 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gho700" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GOF 1600 CE"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="96dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GOF 1600 CE"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity=""
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="156dp"
                 android:layout_row="5"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -354,7 +482,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="156dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -366,14 +494,30 @@
                         android:layout_gravity="center"
                         android:src="@drawable/evs1617" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="1617 EVS"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="93dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"
+                            android:text="1617 EVS"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity=""
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -391,7 +535,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="156dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -403,21 +547,37 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gff1600" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="92dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GFF 1600"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="161dp"
                 android:layout_row="6"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -428,26 +588,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="161dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gst66800"
-                        android:layout_width="105dp"
-                        android:layout_height="89dp"
+                        android:layout_width="131dp"
+                        android:layout_height="97dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gst680" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 680"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -466,7 +642,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="161dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -478,14 +654,30 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gts7501" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="92dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 750"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -504,26 +696,43 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="157dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gst6680"
-                        android:layout_width="105dp"
-                        android:layout_height="89dp"
+                        android:layout_width="122dp"
+                        android:layout_height="96dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gst75e" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 75 E"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -542,7 +751,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="157dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -554,14 +763,31 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gst90be" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="96dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 90 BE"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -569,7 +795,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="185dp"
                 android:layout_row="8"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -580,26 +806,43 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="185dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gst660"
-                        android:layout_width="105dp"
-                        android:layout_height="89dp"
+                        android:layout_width="159dp"
+                        android:layout_height="114dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gst150bce" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GST 150 BCE"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -618,33 +861,49 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="185dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gst9be"
-                        android:layout_width="115dp"
-                        android:layout_height="95dp"
+                        android:layout_width="146dp"
+                        android:layout_height="116dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gho700" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GHO 700"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="179dp"
                 android:layout_row="9"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -655,26 +914,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="179dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gs660"
-                        android:layout_width="144dp"
-                        android:layout_height="94dp"
+                        android:layout_width="155dp"
+                        android:layout_height="123dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gho2682d" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="93dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GHO 26-82 D"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -693,26 +968,42 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="179dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/st9be"
-                        android:layout_width="115dp"
-                        android:layout_height="95dp"
+                        android:layout_width="141dp"
+                        android:layout_height="112dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gss23ae" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GSS 23 AE"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -720,7 +1011,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="176dp"
                 android:layout_row="10"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -730,27 +1021,44 @@
                 app:cardElevation="12dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_width="169dp"
+                    android:layout_height="189dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gs60"
-                        android:layout_width="144dp"
-                        android:layout_height="94dp"
+                        android:layout_width="149dp"
+                        android:layout_height="113dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gex1251ae" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GEX 125-1 AE"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="95dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GEX 125-1 AE"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity=""
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -769,33 +1077,50 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="176dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/t9be"
-                        android:layout_width="122dp"
-                        android:layout_height="100dp"
+                        android:layout_width="139dp"
+                        android:layout_height="105dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gex40150" />
 
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:layout_gravity="center_horizontal"
                         android:text="GEX 40-150"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="165dp"
                 android:layout_row="11"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -806,7 +1131,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="165dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -818,14 +1143,31 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gss1401a" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="93dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:layout_gravity="center_horizontal"
                         android:text="GSS 140-1 A"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -844,33 +1186,49 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="165dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/t93be"
-                        android:layout_width="122dp"
-                        android:layout_height="100dp"
+                        android:layout_width="144dp"
+                        android:layout_height="108dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gss140" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
                         android:layout_gravity="center_horizontal"
                         android:text="GSS 140"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="155dp"
                 android:layout_row="12"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -881,26 +1239,43 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="157dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gs6666669"
-                        android:layout_width="144dp"
-                        android:layout_height="94dp"
+                        android:layout_width="147dp"
+                        android:layout_height="106dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ghg180" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GHG 180"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="12dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="91dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="GHG 180"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity=""
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -919,7 +1294,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="168dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -931,21 +1306,38 @@
                         android:layout_gravity="center"
                         android:src="@drawable/ghg2063" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GHG 20-63"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="157dp"
                 android:layout_row="13"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -956,26 +1348,43 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="141dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/gs6666660"
-                        android:layout_width="154dp"
-                        android:layout_height="98dp"
+                        android:layout_width="186dp"
+                        android:layout_height="106dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gsa120" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="93dp"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
                         android:text="GSA 120"
+                        android:gravity="center"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -994,7 +1403,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="123dp"
+                    android:layout_height="149dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -1006,14 +1415,31 @@
                         android:layout_gravity="center"
                         android:src="@drawable/gop3028" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="GOP 30-28"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity=""
+                        android:src="@drawable/carrito_copras" />
+
+                </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

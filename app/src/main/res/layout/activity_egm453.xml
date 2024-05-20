@@ -201,7 +201,7 @@
                 android:layout_height="35dp"
                 android:layout_margin="16dp"
                 android:background="#0B2161"
-                android:text="Solicitar Cotización"
+                android:text="Agregar al Carrito"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 

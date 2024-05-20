@@ -24,12 +24,23 @@ public class MainActivityBosch extends AppCompatActivity {
     ImageView herramientamadera;
     ImageView herramientabanco;
     ImageView pulidora;
+    ImageView medidoreslaser;
+    ImageView discos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main_bosch);
+
+        medidoreslaser = findViewById(R.id.medidoreslaser);
+        medidoreslaser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, MedidoresLaserBosch.class);
+                startActivity(i);
+            }
+        });
 
         salirmenubosch = findViewById(R.id.salirmenubosch);
         salirmenubosch.setOnClickListener(new View.OnClickListener() {
@@ -130,6 +141,14 @@ public class MainActivityBosch extends AppCompatActivity {
             }
         });
 
+        discos = findViewById(R.id.discos);
+        discos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivityBosch.this, DiscosAbrasivosBosch.class);
+                startActivity(i);
+            }
+        });
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

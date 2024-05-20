@@ -47,7 +47,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="719dp"
+        android:layout_height="match_parent"
         android:layout_marginTop="70dp">
 
 
@@ -56,6 +56,7 @@
             android:layout_height="693dp"
             android:layout_gravity="center"
             android:layout_marginLeft="15dp"
+            android:layout_marginTop="70dp"
             android:layout_marginRight="15dp"
             android:columnCount="2"
             android:rowCount="30">
@@ -75,24 +76,25 @@
 
 
                 <LinearLayout
-                    android:layout_width="121dp"
-                    android:layout_height="131dp"
+                    android:layout_width="144dp"
+                    android:layout_height="195dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/lentees"
-                        android:layout_width="102dp"
+                        android:layout_width="112dp"
                         android:layout_height="105dp"
                         android:layout_gravity="center"
                         android:src="@drawable/lentes" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="31dp"
+                        android:layout_height="45dp"
                         android:layout_gravity="center_horizontal"
-                        android:text="LENTES"
+                        android:gravity="center"
+                        android:text="SEGURIDAD OCULAR"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -112,16 +114,16 @@
 
 
                 <LinearLayout
-                    android:layout_width="131dp"
-                    android:layout_height="145dp"
+                    android:layout_width="146dp"
+                    android:layout_height="172dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/guantes"
-                        android:layout_width="107dp"
-                        android:layout_height="88dp"
+                        android:layout_width="137dp"
+                        android:layout_height="109dp"
                         android:layout_gravity="center"
                         android:clickable="true"
                         android:src="@drawable/guantes" />
@@ -151,25 +153,26 @@
 
                 <LinearLayout
                     android:layout_width="156dp"
-                    android:layout_height="135dp"
+                    android:layout_height="185dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/audifonos"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="96dp"
+                        android:layout_height="112dp"
                         android:layout_gravity="center"
                         android:src="@drawable/audifonos" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="44dp"
                         android:layout_gravity="center_horizontal"
+                        android:gravity="center"
                         android:text="PROTECCIÓN AUDITIVA"
                         android:textColor="@color/black"
-                        android:textSize="13sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -188,15 +191,15 @@
 
                 <LinearLayout
                     android:layout_width="153dp"
-                    android:layout_height="154dp"
+                    android:layout_height="179dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/respiratoria"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="123dp"
+                        android:layout_height="101dp"
                         android:layout_gravity="center"
                         android:src="@drawable/respiratoria" />
 
@@ -207,7 +210,7 @@
                         android:gravity="center"
                         android:text="PROTECCIÓN RESPIRATORIA"
                         android:textColor="@color/black"
-                        android:textSize="12sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -225,24 +228,25 @@
                 app:cardElevation="5dp">
 
                 <LinearLayout
-                    android:layout_width="107dp"
-                    android:layout_height="123dp"
+                    android:layout_width="152dp"
+                    android:layout_height="195dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/rodilleras"
-                        android:layout_width="93dp"
-                        android:layout_height="86dp"
+                        android:layout_width="109dp"
+                        android:layout_height="102dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/rodillerasvector" />
+                        android:src="@drawable/cascovector1" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="145dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="RODILLERAS"
+                        android:gravity="center"
+                        android:text="PROTECCIÓN DE CABEZA"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -263,29 +267,67 @@
 
                 <LinearLayout
                     android:layout_width="147dp"
-                    android:layout_height="123dp"
+                    android:layout_height="192dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/corporal"
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="112dp"
+                        android:layout_height="125dp"
                         android:layout_gravity="center"
                         android:src="@drawable/demas" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="52dp"
                         android:layout_gravity="center_horizontal"
                         android:gravity="center"
                         android:text="PROTECCIÓN CORPORAL"
                         android:textColor="@color/black"
-                        android:textSize="12sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="80dp"
+                android:layout_height="195dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="144dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="129dp"
+                        android:layout_height="122dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/calzadoseg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="CALZADO DE SEGURIDAD"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
 
