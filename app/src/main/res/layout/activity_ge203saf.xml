@@ -187,31 +187,34 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
+                android:gravity="center"
                 android:text="Cotízalo con los siguientes códigos dependiendo del color:"
                 android:textColor="@color/black"
-                android:textSize="14sp"
+                android:textSize="18sp"
                 android:textStyle="italic"/>
 
-            <TextView
-                android:id="@+id/descriptionTxt87"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="EGE203AAF: Ámbar"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="italic"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/descriptionTxti"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="EGE203SAF: Ahumado"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="italic"/>
+                <ImageView
+                    android:layout_width="196dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:src="@drawable/ambar" />
 
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:src="@drawable/ahumado" />
+
+            </LinearLayout>
 
 
             <androidx.appcompat.widget.AppCompatButton

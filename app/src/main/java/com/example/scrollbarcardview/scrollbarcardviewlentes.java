@@ -27,12 +27,23 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
     ImageView mist75;
     ImageView msacopper;
     ImageView t14308;
+    ImageView guve;
+    ImageView jlsol;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewlentes);
+
+        jlsol = findViewById(R.id.jlsol);
+        jlsol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, com.example.scrollbarcardview.jlsol.class);
+                startActivity(i);
+            }
+        });
 
         salir1 = findViewById(R.id.salir1);
         salir1.setOnClickListener(new View.OnClickListener() {
@@ -151,6 +162,15 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewlentes.this, com.example.scrollbarcardview.t14308.class);
+                startActivity(i);
+            }
+        });
+
+        guve = findViewById(R.id.guve);
+        guve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, com.example.scrollbarcardview.guve.class);
                 startActivity(i);
             }
         });

@@ -210,6 +210,13 @@
                 android:textColor="@color/black"
                 android:textSize="14sp" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/descriptionTxtf"
                 android:layout_width="wrap_content"
@@ -218,7 +225,7 @@
                 android:textStyle="italic"
                 android:text="* EGG206M:Talla M"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/descriptionTxtb"
@@ -228,7 +235,9 @@
                 android:textStyle="italic"
                 android:text="* EGG206L:Talla L"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
+
+        </LinearLayout>
 
 
             <androidx.appcompat.widget.AppCompatButton

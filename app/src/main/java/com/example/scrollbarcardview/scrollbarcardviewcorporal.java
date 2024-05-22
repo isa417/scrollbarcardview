@@ -35,14 +35,6 @@ public class scrollbarcardviewcorporal extends AppCompatActivity {
             }
         });
 
-        apc = findViewById(R.id.apc);
-        apc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(scrollbarcardviewcorporal.this, apc.class);
-                startActivity(i);
-            }
-        });
 
         egv0 = findViewById(R.id.egv0);
         egv0.setOnClickListener(new View.OnClickListener() {

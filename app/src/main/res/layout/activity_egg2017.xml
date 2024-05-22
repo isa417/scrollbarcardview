@@ -196,31 +196,42 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
+                android:gravity="center"
                 android:textStyle="italic"
                 android:text="Cotízalo con los siguientes códigos dependiendo de la talla:"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/descriptionTxtm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="106dp"
+                android:layout_height="40dp"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
+                android:gravity="center"
                 android:text="* EGG217M: Talla M"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="16sp"
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/descriptionTxtc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="109dp"
+                android:layout_height="42dp"
                 android:layout_margin="16dp"
-                android:textStyle="italic"
+                android:gravity="center"
                 android:text="* EGG217L: Talla L"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="16sp"
+                android:textStyle="italic" />
 
+        </LinearLayout>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/addToCartBtn"

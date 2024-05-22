@@ -11,21 +11,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class eger553 extends AppCompatActivity {
+public class scrollbarcardviewzapatos extends AppCompatActivity {
 
-    ImageView salireger553;
+    ImageView salirCALZADO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_eger553);
+        setContentView(R.layout.activity_scrollbarcardviewzapatos);
 
-        salireger553 = findViewById(R.id.salireger553);
-        salireger553.setOnClickListener(new View.OnClickListener() {
+        salirCALZADO = findViewById(R.id.salirCALZADO);
+        salirCALZADO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(eger553.this, scrollbarcardviewcabeza.class);
+                Intent i = new Intent(scrollbarcardviewzapatos.this, drawviewseg.class);
                 startActivity(i);
             }
         });

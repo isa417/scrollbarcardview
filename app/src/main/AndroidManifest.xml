@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".jlsol"
+            android:exported="false" />
+        <activity
+            android:name=".guve"
+            android:exported="false" />
+        <activity
             android:name=".DiscosAbrasivosBosch"
             android:exported="false" />
         <activity
@@ -208,13 +214,16 @@
             android:name=".scrollbarcardviewcorporal"
             android:exported="false" />
         <activity
-            android:name=".scrollbarcardviewrodilleras"
+            android:name=".scrollbarcardviewcabeza"
             android:exported="false" />
         <activity
             android:name=".scrollbarcardviewpr"
             android:exported="false" />
         <activity
             android:name=".scrollbarcardviewaudifonos"
+            android:exported="false" />
+        <activity
+            android:name=".scrollbarcardviewzapatos"
             android:exported="false" />
         <activity
             android:name=".drawviewseg"

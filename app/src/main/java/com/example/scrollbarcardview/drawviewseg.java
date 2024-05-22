@@ -17,6 +17,7 @@ public class drawviewseg extends AppCompatActivity {
     ImageView rodilleras;
     ImageView corporal;
     ImageView salirmenu;
+    ImageView calzado;
 
 
     @SuppressLint("MissingInflatedId")
@@ -65,7 +66,7 @@ public class drawviewseg extends AppCompatActivity {
         rodilleras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(drawviewseg.this, scrollbarcardviewrodilleras.class);
+                Intent i = new Intent(drawviewseg.this, scrollbarcardviewcabeza.class);
                 startActivity(i);
             }
         });
@@ -75,6 +76,15 @@ public class drawviewseg extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(drawviewseg.this, scrollbarcardviewcorporal.class);
+                startActivity(i);
+            }
+        });
+
+        calzado = findViewById(R.id.calzado);
+        calzado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(drawviewseg.this, scrollbarcardviewzapatos.class);
                 startActivity(i);
             }
         });

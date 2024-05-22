@@ -206,89 +206,80 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:text="Cotízalo con los siguientes códigos dependiendo del color:"
+                android:gravity="center"
                 android:textColor="@color/black"
                 android:textStyle="italic"
-                android:textSize="14sp" />
+                android:textSize="19sp" />
 
-            <TextView
-                android:id="@+id/descriptionTxt7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCAM:  Amarillo"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/descriptionTxt8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCAZ:  Azul"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/amarillo" />
 
-            <TextView
-                android:id="@+id/descriptionTxt9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCBL: Blanco"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"
+                    android:src="@drawable/azul"/>
 
-            <TextView
-                android:id="@+id/descriptionTxt0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCGR: Gris"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"
+                    android:src="@drawable/blanco"/>
 
-            <TextView
-                android:id="@+id/descriptionTxt01"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCNA: Naranja"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/descriptionTxt02"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCNE: Negro"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/descriptionTxt03"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCRO: Rosa"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/descriptionTxt04"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text=" * APCVE: Verde"
-                android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="14sp" />
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/gris" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"
+                    android:src="@drawable/negro" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="145dp"
+                    android:src="@drawable/rosa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="364dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="134dp"
+                    android:layout_height="145dp"
+
+                    android:src="@drawable/verde" />
+
+
+            </LinearLayout>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/addToCartBtn"

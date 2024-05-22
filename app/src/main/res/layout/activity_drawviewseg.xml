@@ -313,6 +313,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/calzado"
                         android:layout_width="129dp"
                         android:layout_height="122dp"
                         android:layout_gravity="center"
