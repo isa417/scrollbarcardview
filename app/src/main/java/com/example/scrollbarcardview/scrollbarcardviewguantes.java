@@ -15,8 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class scrollbarcardviewguantes extends AppCompatActivity {
 
     Button trans;
-    ImageView salir2;
-
+    ImageView salirguantes;
     ImageView misto18;
     ImageView egg201;
     ImageView egg206;
@@ -29,6 +28,14 @@ public class scrollbarcardviewguantes extends AppCompatActivity {
     ImageView g27805;
     ImageView g48305;
     ImageView gne;
+    ImageView gccd;
+    ImageView gcl;
+    ImageView gccr;
+    ImageView gcomb;
+    ImageView gelec;
+    ImageView gelececo;
+    ImageView geller;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +43,71 @@ public class scrollbarcardviewguantes extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewguantes);
 
-        salir2 = findViewById(R.id.salir2);
-        salir2.setOnClickListener(new View.OnClickListener() {
+        geller = findViewById(R.id.geller);
+        geller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, geller.class);
+                startActivity(i);
+            }
+        });
+
+        gelececo = findViewById(R.id.gelececo);
+        gelececo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gelececo.class);
+                startActivity(i);
+            }
+        });
+
+        gccr = findViewById(R.id.gccr);
+        gccr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gccr.class);
+                startActivity(i);
+            }
+        });
+
+        gelec = findViewById(R.id.gelec);
+        gelec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gelec.class);
+                startActivity(i);
+            }
+        });
+
+        gcomb = findViewById(R.id.gcomb);
+        gcomb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gcomb.class);
+                startActivity(i);
+            }
+        });
+
+        gcl = findViewById(R.id.gcl);
+        gcl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gcl.class);
+                startActivity(i);
+            }
+        });
+
+        gccd = findViewById(R.id.gccd);
+        gccd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewguantes.this, gccd.class);
+                startActivity(i);
+            }
+        });
+
+        salirguantes = findViewById(R.id.salirguantes);
+        salirguantes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewguantes.this, drawviewseg.class);

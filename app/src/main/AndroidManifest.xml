@@ -15,6 +15,87 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".geller"
+            android:exported="false" />
+        <activity
+            android:name=".gelececo"
+            android:exported="false" />
+        <activity
+            android:name=".gelec"
+            android:exported="false" />
+        <activity
+            android:name=".gcomb"
+            android:exported="false" />
+        <activity
+            android:name=".gcl"
+            android:exported="false" />
+        <activity
+            android:name=".gccr"
+            android:exported="false" />
+        <activity
+            android:name=".gccd"
+            android:exported="false" />
+        <activity
+            android:name=".w47388"
+            android:exported="false" />
+        <activity
+            android:name=".w47384"
+            android:exported="false" />
+        <activity
+            android:name=".w47383"
+            android:exported="false" />
+        <activity
+            android:name=".w38478"
+            android:exported="false" />
+        <activity
+            android:name=".w25688"
+            android:exported="false" />
+        <activity
+            android:name=".w25685"
+            android:exported="false" />
+        <activity
+            android:name=".w25679"
+            android:exported="false" />
+        <activity
+            android:name=".w25671"
+            android:exported="false" />
+        <activity
+            android:name=".w25659"
+            android:exported="false" />
+        <activity
+            android:name=".w19644"
+            android:exported="false" />
+        <activity
+            android:name=".uvex8500"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500070"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500066"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500052"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500051"
+            android:exported="false" />
+        <activity
+            android:name=".mist650050"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500040"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500018"
+            android:exported="false" />
+        <activity
+            android:name=".lvenusob"
+            android:exported="false" />
+        <activity
+            android:name=".lvenuscl"
+            android:exported="false" />
+        <activity
             android:name=".jlsol"
             android:exported="false" />
         <activity

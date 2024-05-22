@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class scrollbarcardviewaudifonos extends AppCompatActivity {
 
-    ImageView salir3;
+    ImageView salirauditiva;
     ImageView egm453;
     ImageView egem454hv;
     ImageView egm450;
@@ -25,8 +25,8 @@ public class scrollbarcardviewaudifonos extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewaudifonos);
 
-        salir3 = findViewById(R.id.salir3);
-        salir3.setOnClickListener(new View.OnClickListener() {
+        salirauditiva = findViewById(R.id.salirauditiva);
+        salirauditiva.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewaudifonos.this, drawviewseg.class);

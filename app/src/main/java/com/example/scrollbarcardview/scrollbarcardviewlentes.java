@@ -5,6 +5,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,8 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class scrollbarcardviewlentes extends AppCompatActivity {
-
-    ImageView salir1;
+    private ScrollView scrollView;
     ImageView ge101imaf;
     ImageView ge103c;
     ImageView ge104;
@@ -29,6 +29,27 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
     ImageView t14308;
     ImageView guve;
     ImageView jlsol;
+    ImageView lvenuscl;
+    ImageView lvenusob;
+    ImageView mist6500018;
+    ImageView mist6500040;
+    ImageView mist650050;
+    ImageView mist6500051;
+    ImageView mist6500052;
+    ImageView mist6500066;
+    ImageView mist6500070;
+    ImageView uvex8500;
+    ImageView w19644;
+    ImageView w25659;
+    ImageView w25671;
+    ImageView w25679;
+    ImageView w25685;
+    ImageView w25688;
+    ImageView w38478;
+    ImageView w47383;
+    ImageView w47384;
+    ImageView w47388;
+    ImageView salirlentes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,20 +57,202 @@ public class scrollbarcardviewlentes extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewlentes);
 
+
+        salirlentes = findViewById(R.id.salirlentes);
+        salirlentes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, drawviewseg.class);
+                startActivity(i);
+            }
+        });
+
+        w47388 = findViewById(R.id.w47388);
+        w47388.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w47388.class);
+                startActivity(i);
+            }
+        });
+
+        w47384 = findViewById(R.id.w47384);
+        w47384.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w47384.class);
+                startActivity(i);
+            }
+        });
+
+        w47383 = findViewById(R.id.w47383);
+        w47383.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w47383.class);
+                startActivity(i);
+            }
+        });
+
+        w38478 = findViewById(R.id.w38478);
+        w38478.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w38478.class);
+                startActivity(i);
+            }
+        });
+
+        w25688 = findViewById(R.id.w25688);
+        w25688.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w25688.class);
+                startActivity(i);
+            }
+        });
+
+        w25685 = findViewById(R.id.w25685);
+        w25685.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w25685.class);
+                startActivity(i);
+            }
+        });
+
+        w25679 = findViewById(R.id.w25679);
+        w25679.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w25679.class);
+                startActivity(i);
+            }
+        });
+
+
+        w25671 = findViewById(R.id.w25671);
+        w25671.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w25671.class);
+                startActivity(i);
+            }
+        });
+
+        w25659 = findViewById(R.id.w25659);
+        w25659.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w25659.class);
+                startActivity(i);
+            }
+        });
+
+        w19644 = findViewById(R.id.w19644);
+        w19644.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, w19644.class);
+                startActivity(i);
+            }
+        });
+
+        uvex8500 = findViewById(R.id.uvex8500);
+        uvex8500.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, uvex8500.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500070 = findViewById(R.id.mist6500070);
+        mist6500070.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500070.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500066 = findViewById(R.id.mist6500066);
+        mist6500066.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500066.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500052 = findViewById(R.id.mist6500052);
+        mist6500052.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500052.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500051 = findViewById(R.id.mist6500051);
+        mist6500051.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500051.class);
+                startActivity(i);
+            }
+        });
+
+        mist650050 = findViewById(R.id.mist650050);
+        mist650050.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist650050.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500040 = findViewById(R.id.mist6500040);
+        mist6500040.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500040.class);
+                startActivity(i);
+            }
+        });
+
+        mist6500018 = findViewById(R.id.mist6500018);
+        mist6500018.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, mist6500018.class);
+                startActivity(i);
+            }
+        });
+
+        lvenusob = findViewById(R.id.lvenusob);
+        lvenusob.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, lvenusob.class);
+                startActivity(i);
+            }
+        });
+
+        lvenuscl = findViewById(R.id.lvenuscl);
+        lvenuscl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewlentes.this, lvenuscl.class);
+                startActivity(i);
+            }
+        });
+
         jlsol = findViewById(R.id.jlsol);
         jlsol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewlentes.this, com.example.scrollbarcardview.jlsol.class);
-                startActivity(i);
-            }
-        });
-
-        salir1 = findViewById(R.id.salir1);
-        salir1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(scrollbarcardviewlentes.this, drawviewseg.class);
                 startActivity(i);
             }
         });
