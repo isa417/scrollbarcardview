@@ -8,24 +8,33 @@
     android:orientation="vertical"
     tools:context=".scrollbarcardviewzapatos">
 
-    <ImageView
-        android:id="@+id/salirCALZADO"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
-
-
-    <ImageView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue"
-        android:src="@drawable/orss">
-    </ImageView>
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/blue"
+            android:src="@drawable/orss" />
+
+        <ImageView
+            android:id="@+id/salirCALZADO"
+            android:layout_width="38dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/arrow" />
+    </FrameLayout>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
     <ScrollView

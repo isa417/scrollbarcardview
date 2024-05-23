@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".cuentaActivity">
 
-
     <View
         android:id="@+id/top_view"
         android:layout_width="match_parent"
@@ -16,17 +15,15 @@
         android:background="@drawable/banner" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="247dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/top_view"
+        android:layout_below="@+id/top_view"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:gravity=""
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="-57dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="15dp"
         android:text="DATOS USUARIO"
         android:textColor="@android:color/white"
         android:textSize="28sp"
@@ -34,78 +31,70 @@
 
     <TextView
         android:id="@+id/tv_razonsocial"
-        android:layout_width="378dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/top_view"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="80dp"
-        android:text="Razon Social: "
-        android:textSize="20dp"
-        android:textColor="@android:color/black" />
+        android:layout_marginTop="20dp"
+        android:text="Razon Social: -"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_nombre"
-        android:layout_width="383dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_razonsocial"
         android:layout_marginStart="10dp"
-        android:textSize="20dp"
         android:layout_marginTop="30dp"
-        android:text="Nombre: "
+        android:text="Nombre: -"
+        android:textSize="20sp"
         android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/tv_telefono"
-        android:layout_width="382dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_nombre"
         android:layout_marginStart="10dp"
-        android:textSize="20dp"
         android:layout_marginTop="30dp"
-        android:text="Telefono: "
+        android:text="Telefono: -"
+        android:textSize="20sp"
         android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/tv_correo"
-        android:layout_width="384dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_telefono"
         android:layout_marginStart="10dp"
-        android:textSize="20dp"
         android:layout_marginTop="30dp"
-        android:text="Correo: "
+        android:text="Correo: -"
+        android:textSize="20sp"
         android:textColor="@android:color/black" />
 
     <Button
         android:id="@+id/btn_cerrarsesion"
-        android:layout_width="269dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_correo"
-        android:layout_alignStart="@+id/tv_correo"
-        android:layout_alignEnd="@+id/tv_correo"
-        android:layout_alignBottom="@+id/tv_correo"
-        android:layout_gravity="center"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="-158dp"
+        android:layout_below="@id/tv_correo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:backgroundTint="@color/blue"
         android:text="Cerrar Sesión"
         android:textColor="@color/white" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bottomNavigationView"
         android:layout_alignParentBottom="true"
         android:background="@drawable/bottom_background"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="-2dp"
         android:elevation="2dp"
         app:menu="@menu/botom_menu"
         app:itemIconSize="30dp"
         app:itemIconTint="@drawable/item_selector"
         app:itemRippleColor="@android:color/transparent"
-        app:labelVisibilityMode="unlabeled"/>
+        app:labelVisibilityMode="unlabeled" />
 
 </RelativeLayout>
