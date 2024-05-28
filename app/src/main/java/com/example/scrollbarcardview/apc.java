@@ -25,7 +25,7 @@ public class apc extends AppCompatActivity {
         salirapc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(apc.this, scrollbarcardviewcorporal.class);
+                Intent i = new Intent(apc.this, scrollbarcardviewcabeza.class);
                 startActivity(i);
             }
         });

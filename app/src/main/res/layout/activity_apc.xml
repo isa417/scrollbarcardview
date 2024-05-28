@@ -118,7 +118,7 @@
                         android:id="@+id/txtTitle1"
                         android:layout_width="246dp"
                         android:layout_height="48dp"
-                        android:text="CASCO AP"
+                        android:text="CASCO APC"
                         android:textColor="@color/black"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -129,6 +129,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:text="APCNA: Naranja"
                         android:textColor="#191970"
                         android:textSize="16dp"
                         android:textStyle="italic" />
@@ -205,11 +206,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Cotízalo con los siguientes códigos dependiendo del color:"
                 android:gravity="center"
+                android:text="Cotízalo con los siguientes códigos dependiendo del color:"
                 android:textColor="@color/black"
-                android:textStyle="italic"
-                android:textSize="19sp" />
+                android:textSize="19sp"
+                android:textStyle="italic" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -273,8 +274,8 @@
 
 
                 <ImageView
-                    android:layout_width="134dp"
-                    android:layout_height="145dp"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
 
                     android:src="@drawable/verde" />
 

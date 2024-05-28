@@ -108,6 +108,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/cama"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -145,6 +146,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/micas"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -181,6 +183,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/cma"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -218,6 +221,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/micaa"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -254,6 +258,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/mist6500"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -294,6 +299,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/m36885"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -330,6 +336,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/apb"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -367,6 +374,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/mmsa"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -403,6 +411,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/msabar"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -440,6 +449,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/msarcc"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -476,6 +486,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/msasolaa"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -513,6 +524,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/msasolc"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -549,6 +561,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/vmsa"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"

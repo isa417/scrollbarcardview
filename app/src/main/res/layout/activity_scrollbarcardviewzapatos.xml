@@ -70,7 +70,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/apc"
+                        android:id="@+id/bb362"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -107,6 +107,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bb651"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -216,6 +217,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bb703"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -252,6 +254,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bz28n"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -261,7 +264,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="BZ28N-28"
+                        android:text="BZ28N"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -289,6 +292,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bcr"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -325,6 +329,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/beros"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -334,7 +339,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="BEROS-27"
+                        android:text="BEROS"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -361,6 +366,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bhera"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -397,6 +403,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bpet"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -433,6 +440,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bz28h"
                         android:layout_width="111dp"
                         android:layout_height="103dp"
                         android:layout_gravity="center"
@@ -449,48 +457,13 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
                 android:layout_row="5"
                 android:layout_rowWeight="1"
                 android:layout_column="1"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="12dp">
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="146dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="114dp"
-                        android:layout_height="88dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/bz28n" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="BZ28N"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="146dp"
-                android:layout_row="6"
-                android:layout_rowWeight="1"
-                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -505,6 +478,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bth"
                         android:layout_width="111dp"
                         android:layout_height="103dp"
                         android:layout_gravity="center"
@@ -526,7 +500,7 @@
                 android:layout_height="146dp"
                 android:layout_row="6"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -541,6 +515,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bthor"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -560,9 +535,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="7"
+                android:layout_row="6"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -577,10 +552,11 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bcosmo"
                         android:layout_width="119dp"
                         android:layout_height="104dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/bcosmo" />
+                        android:src="@drawable/bcosmos" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -598,7 +574,7 @@
                 android:layout_height="146dp"
                 android:layout_row="7"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -613,6 +589,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bapolo"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -632,9 +609,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="8"
+                android:layout_row="7"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -670,7 +647,7 @@
                 android:layout_height="146dp"
                 android:layout_row="8"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -705,9 +682,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="9"
+                android:layout_row="8"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -743,7 +720,7 @@
                 android:layout_height="146dp"
                 android:layout_row="9"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -777,9 +754,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="10"
+                android:layout_row="9"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -815,7 +792,7 @@
                 android:layout_height="146dp"
                 android:layout_row="10"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -849,9 +826,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="11"
+                android:layout_row="10"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -887,7 +864,7 @@
                 android:layout_height="146dp"
                 android:layout_row="11"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -921,9 +898,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="12"
+                android:layout_row="11"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -959,7 +936,7 @@
                 android:layout_height="146dp"
                 android:layout_row="12"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -993,9 +970,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="13"
+                android:layout_row="12"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -1009,6 +986,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/cubrec"
                         android:layout_width="111dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -1024,6 +1002,15 @@
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/apc"
+                android:layout_width="111dp"
+                android:layout_height="99dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:src="@drawable/bb362" />
 
         </GridLayout>
 

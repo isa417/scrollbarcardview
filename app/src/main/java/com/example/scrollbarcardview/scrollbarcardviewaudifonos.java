@@ -18,12 +18,62 @@ public class scrollbarcardviewaudifonos extends AppCompatActivity {
     ImageView egem454hv;
     ImageView egm450;
     ImageView apta;
+    ImageView msaorejera;
+    ImageView ta1;
+    ImageView ta4;
+    ImageView ta6;
+    ImageView ta5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewaudifonos);
+
+        ta6 = findViewById(R.id.ta6);
+        ta6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, ta6.class);
+                startActivity(i);
+            }
+        });
+
+        ta5 = findViewById(R.id.ta5);
+        ta5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, ta5.class);
+                startActivity(i);
+            }
+        });
+
+        ta4 = findViewById(R.id.ta4);
+        ta4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, ta4.class);
+                startActivity(i);
+            }
+        });
+
+        ta1 = findViewById(R.id.ta1);
+        ta1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, ta1.class);
+                startActivity(i);
+            }
+        });
+
+        msaorejera = findViewById(R.id.msaorejera);
+        msaorejera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewaudifonos.this, msaorejera.class);
+                startActivity(i);
+            }
+        });
 
         salirauditiva = findViewById(R.id.salirauditiva);
         salirauditiva.setOnClickListener(new View.OnClickListener() {

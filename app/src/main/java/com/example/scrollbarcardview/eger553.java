@@ -25,7 +25,7 @@ public class eger553 extends AppCompatActivity {
         salireger553.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(eger553.this, scrollbarcardviewcabeza.class);
+                Intent i = new Intent(eger553.this, scrollbarcardviewcorporal.class);
                 startActivity(i);
             }
         });

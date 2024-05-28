@@ -15,6 +15,258 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".baquiles"
+            android:exported="false" />
+        <activity
+            android:name=".bapolo"
+            android:exported="false" />
+        <activity
+            android:name=".bcosmo"
+            android:exported="false" />
+        <activity
+            android:name=".bthor"
+            android:exported="false" />
+        <activity
+            android:name=".bth"
+            android:exported="false" />
+        <activity
+            android:name=".bz28h"
+            android:exported="false" />
+        <activity
+            android:name=".bpet"
+            android:exported="false" />
+        <activity
+            android:name=".bhera"
+            android:exported="false" />
+        <activity
+            android:name=".BHERA"
+            android:exported="false" />
+        <activity
+            android:name=".beros"
+            android:exported="false" />
+        <activity
+            android:name=".bcr"
+            android:exported="false" />
+        <activity
+            android:name=".bz28n"
+            android:exported="false" />
+        <activity
+            android:name=".cubrec"
+            android:exported="false" />
+        <activity
+            android:name=".bb703"
+            android:exported="false" />
+        <activity
+            android:name=".bb651"
+            android:exported="false" />
+        <activity
+            android:name=".bb362"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500250"
+            android:exported="false" />
+        <activity
+            android:name=".msalr"
+            android:exported="false" />
+        <activity
+            android:name=".gearnesd"
+            android:exported="false" />
+        <activity
+            android:name=".mangas"
+            android:exported="false" />
+        <activity
+            android:name=".capucha"
+            android:exported="false" />
+        <activity
+            android:name=".munequera"
+            android:exported="false" />
+        <activity
+            android:name=".mna4"
+            android:exported="false" />
+        <activity
+            android:name=".polainas"
+            android:exported="false" />
+        <activity
+            android:name=".appol"
+            android:exported="false" />
+        <activity
+            android:name=".ppol"
+            android:exported="false" />
+        <activity
+            android:name=".pm"
+            android:exported="false" />
+        <activity
+            android:name=".overol"
+            android:exported="false" />
+        <activity
+            android:name=".oref"
+            android:exported="false" />
+        <activity
+            android:name=".ogam"
+            android:exported="false" />
+        <activity
+            android:name=".camisola"
+            android:exported="false" />
+        <activity
+            android:name=".cpol"
+            android:exported="false" />
+        <activity
+            android:name=".cmr"
+            android:exported="false" />
+        <activity
+            android:name=".cm"
+            android:exported="false" />
+        <activity
+            android:name=".mist66005"
+            android:exported="false" />
+        <activity
+            android:name=".chbrig"
+            android:exported="false" />
+        <activity
+            android:name=".mc360921"
+            android:exported="false" />
+        <activity
+            android:name=".apd109"
+            android:exported="false" />
+        <activity
+            android:name=".apd104"
+            android:exported="false" />
+        <activity
+            android:name=".apd102"
+            android:exported="false" />
+        <activity
+            android:name=".mc36006"
+            android:exported="false" />
+        <activity
+            android:name=".m3c6001"
+            android:exported="false" />
+        <activity
+            android:name=".apd1901"
+            android:exported="false" />
+        <activity
+            android:name=".apd793c"
+            android:exported="false" />
+        <activity
+            android:name=".apd793"
+            android:exported="false" />
+        <activity
+            android:name=".mf37093"
+            android:exported="false" />
+        <activity
+            android:name=".apd1906c"
+            android:exported="false" />
+        <activity
+            android:name=".mf32096"
+            android:exported="false" />
+        <activity
+            android:name=".mf32091"
+            android:exported="false" />
+        <activity
+            android:name=".mf32078"
+            android:exported="false" />
+        <activity
+            android:name=".m36893"
+            android:exported="false" />
+        <activity
+            android:name=".m36889"
+            android:exported="false" />
+        <activity
+            android:name=".aprondo"
+            android:exported="false" />
+        <activity
+            android:name=".r3m9010"
+            android:exported="false" />
+        <activity
+            android:name=".r3m8577"
+            android:exported="false" />
+        <activity
+            android:name=".apm10v"
+            android:exported="false" />
+        <activity
+            android:name=".apm10chd"
+            android:exported="false" />
+        <activity
+            android:name=".apm10ch"
+            android:exported="false" />
+        <activity
+            android:name=".m36897"
+            android:exported="false" />
+        <activity
+            android:name=".m36000"
+            android:exported="false" />
+        <activity
+            android:name=".mr3501"
+            android:exported="false" />
+        <activity
+            android:name=".mr37586"
+            android:exported="false" />
+        <activity
+            android:name=".apdp1602"
+            android:exported="false" />
+        <activity
+            android:name=".apdp1601"
+            android:exported="false" />
+        <activity
+            android:name=".m37502"
+            android:exported="false" />
+        <activity
+            android:name=".m36700"
+            android:exported="false" />
+        <activity
+            android:name=".vmsa"
+            android:exported="false" />
+        <activity
+            android:name=".msasolc"
+            android:exported="false" />
+        <activity
+            android:name=".msasolaa"
+            android:exported="false" />
+        <activity
+            android:name=".msarcc"
+            android:exported="false" />
+        <activity
+            android:name=".msabar"
+            android:exported="false" />
+        <activity
+            android:name=".mmsa"
+            android:exported="false" />
+        <activity
+            android:name=".apb"
+            android:exported="false" />
+        <activity
+            android:name=".m36885"
+            android:exported="false" />
+        <activity
+            android:name=".mist6500"
+            android:exported="false" />
+        <activity
+            android:name=".micaa"
+            android:exported="false" />
+        <activity
+            android:name=".cma"
+            android:exported="false" />
+        <activity
+            android:name=".micas"
+            android:exported="false" />
+        <activity
+            android:name=".cama"
+            android:exported="false" />
+        <activity
+            android:name=".ta6"
+            android:exported="false" />
+        <activity
+            android:name=".ta5"
+            android:exported="false" />
+        <activity
+            android:name=".ta4"
+            android:exported="false" />
+        <activity
+            android:name=".ta1"
+            android:exported="false" />
+        <activity
+            android:name=".msaorejera"
+            android:exported="false" />
+        <activity
             android:name=".gadexrojo"
             android:exported="false" />
         <activity
