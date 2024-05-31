@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -48,12 +49,24 @@ public class scrollbarcardviewpr extends AppCompatActivity {
     ImageView apd109;
     ImageView mc360921;
 
+    private android.widget.ScrollView ScrollViewpr;
+    private int scrollX = 0;
+    private int scrollY = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-
         setContentView(R.layout.activity_scrollbarcardviewpr);
+
+        ScrollViewpr = findViewById(R.id.ScrollViewpr); // Asegúrate de que este ID corresponda a tu ScrollView en el layout
+
+        // Restaurar la posición de desplazamiento si hay un estado guardado
+        if (savedInstanceState != null) {
+            scrollX = savedInstanceState.getInt("scrollX");
+            scrollY = savedInstanceState.getInt("scrollY");
+            ScrollViewpr.post(() -> ScrollViewpr.scrollTo(scrollX, scrollY));
+        }
 
         mc360921 = findViewById(R.id.mc360921);
         mc360921.setOnClickListener(new View.OnClickListener() {
@@ -371,4 +384,17 @@ public class scrollbarcardviewpr extends AppCompatActivity {
             return insets;
         });
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // Guarda la posición de desplazamiento
+        scrollX = ScrollViewpr.getScrollX();
+        scrollY = ScrollViewpr.getScrollY();
+        outState.putInt("scrollX", scrollX);
+        outState.putInt("scrollY", scrollY);
+    }
+
+    // ... el resto de tus métodos ...
+
 }

@@ -21,19 +21,99 @@ public class scrollbarcardviewzapatos extends AppCompatActivity {
     ImageView bz28n;
     ImageView bcr;
     ImageView beros;
-    ImageView bhera;
+    ImageView berahankook;
     ImageView bpet;
     ImageView bz28h;
     ImageView bth;
     ImageView bthor;
     ImageView bcosmo;
     ImageView bapolo;
+    ImageView batiest;
+    ImageView batigol;
+    ImageView batigra;
+    ImageView beross;
+    ImageView bheran;
+    ImageView beco;
+    ImageView bbpu;
+    ImageView btsu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_scrollbarcardviewzapatos);
+
+        btsu = findViewById(R.id.btsu);
+        btsu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, btsu.class);
+                startActivity(i);
+            }
+        });
+
+        bbpu = findViewById(R.id.bbpu);
+        bbpu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, bbpu.class);
+                startActivity(i);
+            }
+        });
+
+        beco = findViewById(R.id.beco);
+        beco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, beco.class);
+                startActivity(i);
+            }
+        });
+
+        bheran = findViewById(R.id.bheran);
+        bheran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, bheran.class);
+                startActivity(i);
+            }
+        });
+
+        beross = findViewById(R.id.beross);
+        beross.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, beross.class);
+                startActivity(i);
+            }
+        });
+
+        batigra = findViewById(R.id.batigra);
+        batigra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, batigra.class);
+                startActivity(i);
+            }
+        });
+
+        batigol = findViewById(R.id.batigol);
+        batigol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, batigol.class);
+                startActivity(i);
+            }
+        });
+
+        batiest = findViewById(R.id.batiest);
+        batiest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(scrollbarcardviewzapatos.this, batiest.class);
+                startActivity(i);
+            }
+        });
 
         bapolo = findViewById(R.id.bapolo);
         bapolo.setOnClickListener(new View.OnClickListener() {
@@ -89,8 +169,8 @@ public class scrollbarcardviewzapatos extends AppCompatActivity {
             }
         });
 
-        bhera = findViewById(R.id.bhera);
-        bhera.setOnClickListener(new View.OnClickListener() {
+        berahankook = findViewById(R.id.berahankook);
+        berahankook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(scrollbarcardviewzapatos.this, bhera.class);

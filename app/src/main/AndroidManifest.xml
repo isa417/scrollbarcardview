@@ -15,6 +15,144 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".bsglm40"
+            android:exported="false" />
+        <activity
+            android:name=".bsglm20"
+            android:exported="false" />
+        <activity
+            android:name=".bsglm15027c"
+            android:exported="false" />
+        <activity
+            android:name=".bsgll380cg"
+            android:exported="false" />
+        <activity
+            android:name=".dsdf60"
+            android:exported="false" />
+        <activity
+            android:name=".disco694"
+            android:exported="false" />
+        <activity
+            android:name=".disco650"
+            android:exported="false" />
+        <activity
+            android:name=".disco599"
+            android:exported="false" />
+        <activity
+            android:name=".disco598"
+            android:exported="false" />
+        <activity
+            android:name=".bsdf40"
+            android:exported="false" />
+        <activity
+            android:name=".bsdcl"
+            android:exported="false" />
+        <activity
+            android:name=".bsdcd"
+            android:exported="false" />
+        <activity
+            android:name=".bsdc412"
+            android:exported="false" />
+        <activity
+            android:name=".gws18v10psc"
+            android:exported="false" />
+        <activity
+            android:name=".gws18v10pc"
+            android:exported="false" />
+        <activity
+            android:name=".gws18v10p"
+            android:exported="false" />
+        <activity
+            android:name=".gws18v10"
+            android:exported="false" />
+        <activity
+            android:name=".gws180li"
+            android:exported="false" />
+        <activity
+            android:name=".gdr12v110"
+            android:exported="false" />
+        <activity
+            android:name=".gdr120li"
+            android:exported="false" />
+        <activity
+            android:name=".gds18v1000"
+            android:exported="false" />
+        <activity
+            android:name=".gds18v400"
+            android:exported="false" />
+        <activity
+            android:name=".gsx18v200"
+            android:exported="false" />
+        <activity
+            android:name=".gdx180li"
+            android:exported="false" />
+        <activity
+            android:name=".gsb12v30"
+            android:exported="false" />
+        <activity
+            android:name=".gsb120li"
+            android:exported="false" />
+        <activity
+            android:name=".gwb12v10"
+            android:exported="false" />
+        <activity
+            android:name=".gsr120li"
+            android:exported="false" />
+        <activity
+            android:name=".gsb185li"
+            android:exported="false" />
+        <activity
+            android:name=".grs120li"
+            android:exported="false" />
+        <activity
+            android:name=".gsr1000smart"
+            android:exported="false" />
+        <activity
+            android:name=".nuevoboschgo"
+            android:exported="false" />
+        <activity
+            android:name=".gsb18v150c"
+            android:exported="false" />
+        <activity
+            android:name=".gsb18v90c"
+            android:exported="false" />
+        <activity
+            android:name=".gsb18v50"
+            android:exported="false" />
+        <activity
+            android:name=".gtb185li"
+            android:exported="false" />
+        <activity
+            android:name=".gsr18v60pc"
+            android:exported="false" />
+        <activity
+            android:name=".gsr180li"
+            android:exported="false" />
+        <activity
+            android:name=".btsu"
+            android:exported="false" />
+        <activity
+            android:name=".bbpu"
+            android:exported="false" />
+        <activity
+            android:name=".beco"
+            android:exported="false" />
+        <activity
+            android:name=".bheran"
+            android:exported="false" />
+        <activity
+            android:name=".beross"
+            android:exported="false" />
+        <activity
+            android:name=".batigra"
+            android:exported="false" />
+        <activity
+            android:name=".batigol"
+            android:exported="false" />
+        <activity
+            android:name=".batiest"
+            android:exported="false" />
+        <activity
             android:name=".baquiles"
             android:exported="false" />
         <activity

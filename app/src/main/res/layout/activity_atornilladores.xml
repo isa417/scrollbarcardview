@@ -9,30 +9,44 @@
     tools:context=".atornilladores">
 
 
-    <ImageView
-        android:id="@+id/salirmenutalados"
-        android:layout_width="wrap_content"
+    <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#01114A"
+            android:src="@drawable/logos">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/salirmenutalados"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/arrowwhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
+
+    </FrameLayout>
+
+    <SearchView
+        android:layout_width="371dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:background="#01114A"
-        android:src="@drawable/logos">
-
-    </ImageView>
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
 
         <GridLayout
@@ -62,7 +76,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/misto18"
+                        android:id="@+id/gsr180li"
                         android:layout_width="123dp"
                         android:layout_height="113dp"
                         android:layout_gravity="center"
@@ -117,7 +131,7 @@
 
 
                     <ImageView
-                        android:id="@+id/egg201"
+                        android:id="@+id/gsr18v60fc"
                         android:layout_width="129dp"
                         android:layout_height="108dp"
                         android:layout_gravity="center"
@@ -172,7 +186,7 @@
 
 
                     <ImageView
-                        android:id="@+id/egg206"
+                        android:id="@+id/gtb185li"
                         android:layout_width="89dp"
                         android:layout_height="74dp"
                         android:layout_marginTop="5dp"
@@ -226,7 +240,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg207"
+                        android:id="@+id/gsb185li"
                         android:layout_width="152dp"
                         android:layout_height="81dp"
                         android:layout_gravity="center"
@@ -280,7 +294,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg215"
+                        android:id="@+id/gsb18v50"
                         android:layout_width="115dp"
                         android:layout_height="89dp"
                         android:layout_gravity="center"
@@ -333,7 +347,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg216"
+                        android:id="@+id/GSB18V90C"
                         android:layout_width="142dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"
@@ -386,9 +400,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg217"
-                        android:layout_width="170dp"
-                        android:layout_height="103dp"
+                        android:id="@+id/gsb18v150c"
+                        android:layout_width="141dp"
+                        android:layout_height="109dp"
                         android:layout_gravity="center"
                         android:src="@drawable/gsb18v150c" />
 
@@ -441,7 +455,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg244lc"
+                        android:id="@+id/nuevoboschgo"
                         android:layout_width="125dp"
                         android:layout_height="84dp"
                         android:layout_gravity="center"
@@ -496,7 +510,7 @@
 
 
                     <ImageView
-                        android:id="@+id/g27805"
+                        android:id="@+id/gsr1000smart"
                         android:layout_width="93dp"
                         android:layout_height="91dp"
                         android:layout_gravity="center"
@@ -550,7 +564,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/g48305"
+                        android:id="@+id/gsr120li"
                         android:layout_width="94dp"
                         android:layout_height="93dp"
                         android:layout_gravity="center"
@@ -602,6 +616,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/gwb12v10"
                         android:layout_width="112dp"
                         android:layout_height="98dp"
                         android:layout_gravity="center"
@@ -654,6 +669,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/gsb120li"
                         android:layout_width="99dp"
                         android:layout_height="89dp"
                         android:layout_gravity="center"
@@ -737,7 +753,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/gne"
+                        android:id="@+id/gsb12v30"
                         android:layout_width="92dp"
                         android:layout_height="84dp"
                         android:layout_gravity="center"

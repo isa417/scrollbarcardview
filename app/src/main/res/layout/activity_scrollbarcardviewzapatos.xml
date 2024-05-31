@@ -346,49 +346,13 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
                 android:layout_row="4"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="12dp">
-
-                <!-- Contenido del primer CardView -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="146dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/bhera"
-                        android:layout_width="111dp"
-                        android:layout_height="99dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/bhera" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:text="BHERA"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="146dp"
-                android:layout_row="4"
-                android:layout_rowWeight="1"
-                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -423,9 +387,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="5"
+                android:layout_row="4"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -463,7 +427,7 @@
                 android:layout_height="146dp"
                 android:layout_row="5"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -498,9 +462,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="6"
+                android:layout_row="5"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -537,7 +501,7 @@
                 android:layout_height="146dp"
                 android:layout_row="6"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -572,9 +536,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="7"
+                android:layout_row="6"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -611,7 +575,7 @@
                 android:layout_height="146dp"
                 android:layout_row="7"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -645,9 +609,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="8"
+                android:layout_row="7"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -662,6 +626,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/batiest"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -684,7 +649,7 @@
                 android:layout_height="146dp"
                 android:layout_row="8"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -699,6 +664,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/batigol"
                         android:layout_width="109dp"
                         android:layout_height="95dp"
                         android:layout_gravity="center"
@@ -718,9 +684,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="9"
+                android:layout_row="8"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -735,6 +701,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/batigra"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -756,7 +723,7 @@
                 android:layout_height="146dp"
                 android:layout_row="9"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -771,6 +738,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/beross"
                         android:layout_width="109dp"
                         android:layout_height="95dp"
                         android:layout_gravity="center"
@@ -790,9 +758,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="10"
+                android:layout_row="9"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -807,6 +775,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/berahankook"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -828,7 +797,7 @@
                 android:layout_height="146dp"
                 android:layout_row="10"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -843,6 +812,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bheran"
                         android:layout_width="109dp"
                         android:layout_height="95dp"
                         android:layout_gravity="center"
@@ -862,9 +832,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="11"
+                android:layout_row="10"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -879,6 +849,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/beco"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -900,7 +871,7 @@
                 android:layout_height="146dp"
                 android:layout_row="11"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -915,6 +886,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/bbpu"
                         android:layout_width="109dp"
                         android:layout_height="95dp"
                         android:layout_gravity="center"
@@ -934,9 +906,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="146dp"
-                android:layout_row="12"
+                android:layout_row="11"
                 android:layout_rowWeight="1"
-                android:layout_column="0"
+                android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -951,6 +923,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/btsu"
                         android:layout_width="114dp"
                         android:layout_height="88dp"
                         android:layout_gravity="center"
@@ -972,7 +945,7 @@
                 android:layout_height="146dp"
                 android:layout_row="12"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
