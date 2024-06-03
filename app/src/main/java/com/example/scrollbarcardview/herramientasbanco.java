@@ -15,6 +15,9 @@ public class herramientasbanco extends AppCompatActivity {
 
 
     ImageView salirherramientasbanco;
+    ImageView gcm254;
+    ImageView gcm12gdl;
+    ImageView gts254;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,32 @@ public class herramientasbanco extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_herramientasbanco);
 
+        gts254 = findViewById(R.id.gts254);
+        gts254.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(herramientasbanco.this, gts254.class);
+                startActivity(i);
+            }
+        });
+
+        gcm12gdl = findViewById(R.id.gcm12gdl);
+        gcm12gdl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(herramientasbanco.this, gcm12gdl.class);
+                startActivity(i);
+            }
+        });
+
+        gcm254 = findViewById(R.id.gcm254);
+        gcm254.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(herramientasbanco.this, gcm254.class);
+                startActivity(i);
+            }
+        });
 
         salirherramientasbanco = findViewById(R.id.salirherramientasbanco);
         salirherramientasbanco.setOnClickListener(new View.OnClickListener() {

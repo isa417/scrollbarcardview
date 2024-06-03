@@ -9,26 +9,38 @@
     tools:context=".baterias">
 
 
-    <ImageView
-        android:id="@+id/salirbaterias"
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#01114A"
+            android:src="@drawable/logos">
+
+        </ImageView>
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:background="#01114A"
-        android:src="@drawable/logos">
+        <ImageView
+            android:id="@+id/salirbaterias"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/arrowwhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
 
-    </ImageView>
+    </FrameLayout>
 
+    <SearchView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
 
@@ -66,7 +78,7 @@
                     android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/ge101imaf"
+                    android:id="@+id/gba18v20ah"
                     android:layout_width="165dp"
                     android:layout_height="122dp"
                     android:layout_gravity="center"
@@ -119,7 +131,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge103c"
+                        android:id="@+id/gba18v40ah"
                         android:layout_width="163dp"
                         android:layout_height="124dp"
                         android:layout_gravity="center"
@@ -171,7 +183,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge104"
+                        android:id="@+id/gba18v50ah"
                         android:layout_width="162dp"
                         android:layout_height="120dp"
                         android:layout_gravity="center"
@@ -224,7 +236,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge105"
+                        android:id="@+id/procore18v40ah"
                         android:layout_width="134dp"
                         android:layout_height="122dp"
                         android:layout_gravity="center"
@@ -276,11 +288,11 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge109"
+                        android:id="@+id/procore18v80ah"
                         android:layout_width="144dp"
                         android:layout_height="114dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/procore18v40ah" />
+                        android:src="@drawable/pocore18v80ah" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -328,7 +340,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge111"
+                        android:id="@+id/procore18v120ah"
                         android:layout_width="110dp"
                         android:layout_height="96dp"
                         android:layout_gravity="center"
@@ -381,7 +393,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/egg217"
+                        android:id="@+id/gba12v20ah"
                         android:layout_width="162dp"
                         android:layout_height="122dp"
                         android:layout_gravity="center"
@@ -433,7 +445,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge203saf"
+                        android:id="@+id/gba12v40ah"
                         android:layout_width="163dp"
                         android:layout_height="127dp"
                         android:layout_gravity="center"

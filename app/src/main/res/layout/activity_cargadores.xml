@@ -9,26 +9,38 @@
     tools:context=".cargadores">
 
 
-    <ImageView
-        android:id="@+id/salircargadores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
-
-
-    <ImageView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:background="#01114A"
-        android:src="@drawable/logos">
+        android:layout_height="wrap_content"
+        android:padding="8dp">
 
-    </ImageView>
+        <ImageView
+            android:layout_width="403dp"
+            android:layout_height="76dp"
+            android:background="#01114A"
+            android:src="@drawable/logos">
 
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/salircargadores"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/arrowwhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
+
+    </FrameLayout>
+
+    <SearchView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
 
@@ -66,7 +78,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge101imaf"
+                        android:id="@+id/gal1880cv"
                         android:layout_width="121dp"
                         android:layout_height="92dp"
                         android:layout_gravity="center"
@@ -121,7 +133,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge103c"
+                        android:id="@+id/gal18v20"
                         android:layout_width="110dp"
                         android:layout_height="94dp"
                         android:layout_gravity="center"
@@ -174,7 +186,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge104"
+                        android:id="@+id/gal18v40"
                         android:layout_width="134dp"
                         android:layout_height="107dp"
                         android:layout_gravity="center"
@@ -208,6 +220,9 @@
             </androidx.cardview.widget.CardView>
 
 
+
+
+
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="159dp"
@@ -227,7 +242,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge109"
+                        android:id="@+id/gal12v40"
                         android:layout_width="162dp"
                         android:layout_height="112dp"
                         android:layout_gravity="center"
@@ -280,7 +295,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge111"
+                        android:id="@+id/gal12v20"
                         android:layout_width="124dp"
                         android:layout_height="99dp"
                         android:layout_gravity="center"

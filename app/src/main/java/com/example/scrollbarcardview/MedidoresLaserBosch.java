@@ -16,12 +16,22 @@ public class MedidoresLaserBosch extends AppCompatActivity {
     ImageView bsglm15027c;
     ImageView bsgll380cg;
     ImageView bsglm20;
+    ImageView bsglm40;
     ImageView salirbosch;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_medidores_laser_bosch);
+
+        bsglm40 = findViewById(R.id.bsglm40);
+        bsglm40.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MedidoresLaserBosch.this, bsglm40.class);
+                startActivity(i);
+            }
+        });
 
         bsglm20 = findViewById(R.id.bsglm20);
         bsglm20.setOnClickListener(new View.OnClickListener() {

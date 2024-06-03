@@ -9,25 +9,38 @@
     tools:context=".herramientasdiversas">
 
 
-    <ImageView
-        android:id="@+id/salirbosch"
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#01114A"
+            android:src="@drawable/logos">
+
+        </ImageView>
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:background="#01114A"
-        android:src="@drawable/logos">
+        <ImageView
+            android:id="@+id/salirbosch"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/arrowwhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
 
-    </ImageView>
+    </FrameLayout>
+
+    <SearchView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
 
@@ -223,7 +236,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge105"
+                        android:id="@+id/bsglm40"
                         android:layout_width="153dp"
                         android:layout_height="165dp"
                         android:layout_gravity="center"

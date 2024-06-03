@@ -9,25 +9,38 @@
     tools:context=".pulidorarectificadora">
 
 
-    <ImageView
-        android:id="@+id/salirherramientapulidora"
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:padding="8dp" />
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:background="#01114A"
+            android:src="@drawable/logos">
+
+        </ImageView>
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="115dp"
-        android:background="#01114A"
-        android:src="@drawable/logos">
+        <ImageView
+            android:id="@+id/salirherramientapulidora"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/arrowwhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:padding="8dp" />
 
-    </ImageView>
+    </FrameLayout>
+
+    <SearchView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:queryHint="Buscar..." />
 
 
     <ScrollView
@@ -64,7 +77,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge101imaf"
+                        android:id="@+id/gpo12ce"
                         android:layout_width="106dp"
                         android:layout_height="98dp"
                         android:layout_gravity="center"
@@ -118,7 +131,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge103c"
+                        android:id="@+id/ggs28"
                         android:layout_width="109dp"
                         android:layout_height="98dp"
                         android:layout_gravity="center"
@@ -172,7 +185,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge106664"
+                        android:id="@+id/ggs28l"
                         android:layout_width="112dp"
                         android:layout_height="93dp"
                         android:layout_gravity="center"
@@ -226,7 +239,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge1404"
+                        android:id="@+id/ggs28ce"
                         android:layout_width="112dp"
                         android:layout_height="93dp"
                         android:layout_gravity="center"
@@ -261,66 +274,13 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="159dp"
-                android:layout_row="3"
-                android:layout_rowWeight="1"
-                android:layout_column="0"
-                android:layout_columnWeight="1"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="12dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="161dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/ge104"
-                        android:layout_width="112dp"
-                        android:layout_height="93dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ggs28l" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_margin="12dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="92dp"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:layout_gravity="center_horizontal"
-                        android:text="GGS 28 L"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="40dp"
-                        android:layout_gravity="center"
-                        android:foregroundGravity=""
-                        android:src="@drawable/carrito_copras" />
-
-                </LinearLayout>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_row="3"
                 android:layout_rowWeight="1"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
                 app:cardCornerRadius="15dp"
@@ -334,7 +294,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge17704"
+                        android:id="@+id/ggs28lce"
                         android:layout_width="123dp"
                         android:layout_height="92dp"
                         android:layout_gravity="center"
