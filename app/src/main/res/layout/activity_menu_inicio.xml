@@ -174,7 +174,7 @@
 
 
                             <ImageView
-                                android:id="@+id/imageView30"
+                                android:id="@+id/transporte"
                                 android:layout_width="40dp"
                                 android:layout_height="38dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -280,7 +280,7 @@
                             android:background="@drawable/btn_cat_background">
 
                             <ImageView
-                                android:id="@+id/imageView3"
+                                android:id="@+id/tornilleria"
                                 android:layout_width="40dp"
                                 android:layout_height="38dp"
                                 app:layout_constraintBottom_toBottomOf="parent"

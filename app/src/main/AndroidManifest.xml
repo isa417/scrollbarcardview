@@ -15,6 +15,45 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".pija"
+            android:exported="false" />
+        <activity
+            android:name=".tornillo"
+            android:exported="false" />
+        <activity
+            android:name=".barra"
+            android:exported="false" />
+        <activity
+            android:name=".tuerca"
+            android:exported="false" />
+        <activity
+            android:name=".remache"
+            android:exported="false" />
+        <activity
+            android:name=".perno"
+            android:exported="false" />
+        <activity
+            android:name=".arandelator"
+            android:exported="false" />
+        <activity
+            android:name=".tornilleria"
+            android:exported="false" />
+        <activity
+            android:name=".arandela"
+            android:exported="false" />
+        <activity
+            android:name=".soporteMotor"
+            android:exported="false" />
+        <activity
+            android:name=".buje"
+            android:exported="false" />
+        <activity
+            android:name=".pernos"
+            android:exported="false" />
+        <activity
+            android:name=".transporte"
+            android:exported="false" />
+        <activity
             android:name=".gop3028"
             android:exported="false" />
         <activity

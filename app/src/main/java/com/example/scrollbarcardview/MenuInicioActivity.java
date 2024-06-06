@@ -20,11 +20,13 @@ import java.util.ArrayList;
 
 public class MenuInicioActivity extends AppCompatActivity {
     ImageView seguridad;
+    ImageView transporte;
     ArrayList<PersonajeVo> listaPersonajes;
     RecyclerView recyclerPersonajes;
     AdaptadorPersonajes adapter;
     TextView btn_cotización;
     ImageView industria;
+    ImageView tornilleria;
 
 
     @Override
@@ -56,6 +58,24 @@ public class MenuInicioActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MenuInicioActivity.this, drawviewseg.class);
+                startActivity(i);
+            }
+        });
+
+        tornilleria = findViewById(R.id.tornilleria);
+        tornilleria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuInicioActivity.this, tornilleria.class);
+                startActivity(i);
+            }
+        });
+
+        transporte = findViewById(R.id.transporte);
+        transporte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MenuInicioActivity.this, transporte.class);
                 startActivity(i);
             }
         });
