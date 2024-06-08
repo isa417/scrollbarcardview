@@ -21,7 +21,7 @@ public class remache extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_remache);
 
-        salirmenutornilleriaremache = findViewById(R.id.salirmenutornilleriaperno);
+        salirmenutornilleriaremache = findViewById(R.id.salirmenutornilleriaremache);
         salirmenutornilleriaremache.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

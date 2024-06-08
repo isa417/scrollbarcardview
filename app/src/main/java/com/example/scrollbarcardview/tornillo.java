@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class tornillo extends AppCompatActivity {
 
-    ImageView salirmenutornilleriaT;
+    ImageView salirmenutornilleriaTC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +21,8 @@ public class tornillo extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_tornillo);
 
-        salirmenutornilleriaT = findViewById(R.id.salirmenutornilleriaT);
-        salirmenutornilleriaT.setOnClickListener(new View.OnClickListener() {
+        salirmenutornilleriaTC = findViewById(R.id.salirmenutornilleriaTC);
+        salirmenutornilleriaTC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(tornillo.this, tornilleria.class);

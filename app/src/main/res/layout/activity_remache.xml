@@ -46,14 +46,6 @@
 
     </FrameLayout>
 
-    <SearchView
-        android:layout_width="371dp"
-        android:layout_height="wrap_content"
-
-        android:layout_gravity="top|center"
-        android:queryHint="Buscar..." />
-
-
 
 
     <ScrollView

@@ -69,7 +69,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="293dp"
+                android:layout_height="236dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
@@ -81,7 +81,7 @@
                 <!-- Contenido del primer CardView -->
                 <LinearLayout
                     android:layout_width="377dp"
-                    android:layout_height="293dp"
+                    android:layout_height="228dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -89,9 +89,9 @@
                     <ImageView
                         android:id="@+id/gws12v7"
                         android:layout_width="183dp"
-                        android:layout_height="152dp"
+                        android:layout_height="146dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/nm105s" />
+                        android:src="@drawable/acme" />
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -104,7 +104,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="NIM1 0S"
+                            android:text="NA"
                             android:textColor="@color/black"
                             android:textSize="25sp"
                             android:textStyle="bold" />
@@ -115,9 +115,479 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="TUERCA CILASIE 10.9"
+                            android:text="TUERCA ACME"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="212dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="209dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/gks12v26"
+                        android:layout_width="154dp"
+                        android:layout_height="146dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/n2c" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="87dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N2C"
+                            android:textColor="@color/black"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="245dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA G-2 ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="251dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/gsa12vli"
+                        android:layout_width="154dp"
+                        android:layout_height="137dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/n5c" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="111dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N5C"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="195dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA G-5"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="114dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N5F"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="194dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA G-5"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/propruner"
+                        android:layout_width="161dp"
+                        android:layout_height="143dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/n8c" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="111dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N8C"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="195dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA G-8"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="114dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N8F"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="194dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA G-8"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="271dp"
+                android:layout_row="5"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="261dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="148dp"
+                        android:layout_height="139dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nm" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="111dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NMS"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="195dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA CLASE 8.8"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="114dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NMF"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="194dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA CLASE 8.8"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="109dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NME"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="201dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA CLASE 8.8"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="281dp"
+                android:layout_row="6"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="271dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="167dp"
+                        android:layout_height="145dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ny" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="111dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NM10S"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="195dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA CLASE 10.9"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -151,9 +621,9 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="TUERCA CLASIE 10.9"
+                            android:text="TUERCA CLASE 10.9"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -176,7 +646,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="NIM1 0E"
+                            android:text="NM10E"
                             android:textColor="@color/black"
                             android:textSize="25sp"
                             android:textStyle="bold" />
@@ -187,9 +657,9 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="TUERCA CLASIE 10.9"
+                            android:text="TUERCA CLASE 10.9"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -201,14 +671,14 @@
 
                     </LinearLayout>
                 </LinearLayout>
-            </androidx.cardview.widget.CardView>
 
+            </androidx.cardview.widget.CardView>
 
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_row="2"
+                android:layout_height="236dp"
+                android:layout_row="7"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
@@ -218,17 +688,16 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="246dp"
+                    android:layout_height="233dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/gks12v26"
-                        android:layout_width="154dp"
-                        android:layout_height="146dp"
+                        android:layout_width="167dp"
+                        android:layout_height="145dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ngc" />
+                        android:src="@drawable/ngc1" />
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -237,24 +706,24 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="87dp"
+                            android:layout_width="93dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="NGC"
                             android:textColor="@color/black"
-                            android:textSize="30sp"
+                            android:textSize="25sp"
                             android:textStyle="bold" />
 
 
                         <TextView
-                            android:layout_width="245dp"
+                            android:layout_width="208dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA GRIPCO G-C ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -273,24 +742,24 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="88dp"
+                            android:layout_width="98dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="NGF"
                             android:textColor="@color/black"
-                            android:textSize="30sp"
+                            android:textSize="25sp"
                             android:textStyle="bold" />
 
 
                         <TextView
-                            android:layout_width="242dp"
+                            android:layout_width="209dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA GRIPCO G-C ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -301,16 +770,16 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
 
-
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_row="3"
+                android:layout_height="275dp"
+                android:layout_row="8"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
@@ -320,17 +789,16 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="251dp"
+                    android:layout_height="273dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/gsa12vli"
-                        android:layout_width="148dp"
-                        android:layout_height="127dp"
+                        android:layout_width="169dp"
+                        android:layout_height="140dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ngms" />
+                        android:src="@drawable/ngc2" />
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -339,7 +807,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="111dp"
+                            android:layout_width="93dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -350,13 +818,13 @@
 
 
                         <TextView
-                            android:layout_width="195dp"
+                            android:layout_width="208dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA GRIPCO CLASE 8 ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -375,7 +843,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="114dp"
+                            android:layout_width="98dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -386,13 +854,13 @@
 
 
                         <TextView
-                            android:layout_width="194dp"
+                            android:layout_width="209dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA GRIPCO CLASE 8 ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -411,7 +879,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="109dp"
+                            android:layout_width="93dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -422,13 +890,13 @@
 
 
                         <TextView
-                            android:layout_width="201dp"
+                            android:layout_width="208dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA GRIPCO CLASE 8 ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -439,16 +907,15 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
-
-
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_row="4"
+                android:layout_height="219dp"
+                android:layout_row="9"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
@@ -458,15 +925,14 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/propruner"
-                        android:layout_width="161dp"
-                        android:layout_height="143dp"
+                        android:layout_width="169dp"
+                        android:layout_height="140dp"
                         android:layout_gravity="center"
                         android:src="@drawable/nyc" />
 
@@ -477,7 +943,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="111dp"
+                            android:layout_width="93dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -488,13 +954,13 @@
 
 
                         <TextView
-                            android:layout_width="195dp"
+                            android:layout_width="208dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="TUERCA NIYLON ZN"
+                            android:text="TUERCA NYLON ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -513,7 +979,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="114dp"
+                            android:layout_width="98dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -524,13 +990,13 @@
 
 
                         <TextView
-                            android:layout_width="194dp"
+                            android:layout_width="209dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA NYLON ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -541,14 +1007,16 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
+
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_row="5"
+                android:layout_height="271dp"
+                android:layout_row="10"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
@@ -558,16 +1026,16 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="251dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="148dp"
-                        android:layout_height="127dp"
+                        android:layout_width="169dp"
+                        android:layout_height="140dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ngms" />
+                        android:src="@drawable/ny" />
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -576,7 +1044,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="111dp"
+                            android:layout_width="83dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -587,13 +1055,13 @@
 
 
                         <TextView
-                            android:layout_width="195dp"
+                            android:layout_width="231dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA NYLON ZN MM STD"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -612,7 +1080,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="114dp"
+                            android:layout_width="84dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -623,13 +1091,13 @@
 
 
                         <TextView
-                            android:layout_width="194dp"
+                            android:layout_width="231dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA NYLON ZN MM FINA"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -648,7 +1116,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="109dp"
+                            android:layout_width="83dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -659,13 +1127,13 @@
 
 
                         <TextView
-                            android:layout_width="201dp"
+                            android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA NYLON ZN MM SUPERFINA"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -676,14 +1144,17 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
+
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_row="6"
+                android:layout_height="227dp"
+                android:layout_row="11"
                 android:layout_rowWeight="1"
                 android:layout_column="0"
                 android:layout_columnWeight="1"
@@ -693,16 +1164,16 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="251dp"
+                    android:layout_height="220dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="153dp"
-                        android:layout_height="126dp"
+                        android:layout_width="169dp"
+                        android:layout_height="140dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/nbc" />
+                        android:src="@drawable/ncb" />
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -711,7 +1182,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="111dp"
+                            android:layout_width="83dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
@@ -722,13 +1193,13 @@
 
 
                         <TextView
-                            android:layout_width="202dp"
+                            android:layout_width="231dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA BRIDA GRIPCO G-G ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -739,8 +1210,6 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
-
-
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -749,24 +1218,24 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:layout_width="109dp"
+                            android:layout_width="84dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
-                            android:text="NYME"
+                            android:text="NBF"
                             android:textColor="@color/black"
                             android:textSize="25sp"
                             android:textStyle="bold" />
 
 
                         <TextView
-                            android:layout_width="201dp"
+                            android:layout_width="231dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center_horizontal"
                             android:gravity="center"
                             android:text="TUERCA BRIDA GRIPCO G-G ZN"
                             android:textColor="@color/black"
-                            android:textSize="13sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <ImageView
@@ -777,10 +1246,605 @@
                             android:src="@drawable/carrito_copras" />
 
                     </LinearLayout>
+
+
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="257dp"
+                android:layout_row="12"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="249dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nfc" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NFC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA FLANGE ASERRADA ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="84dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NFF"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="253dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA FLANGE ASERRADA ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="233dp"
+                android:layout_row="13"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="205dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nfm" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NFM"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA FLANGE ASERRADA ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="219dp"
+                android:layout_row="14"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ncf" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NCF"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA CASTILLO"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="219dp"
+                android:layout_row="15"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/n2h" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="N2H"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA 2H"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="219dp"
+                android:layout_row="16"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nmc" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NMC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA MARIPOSA FORJADA ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="219dp"
+                android:layout_row="17"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nam" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NAM"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA MARIPOSA FORJADA ZN"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="219dp"
+                android:layout_row="18"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ntt" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NTT"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA TIPO T UNC "
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="238dp"
+                android:layout_row="19"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="181dp"
+                        android:layout_height="156dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nec" />
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NEC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA SEGURIDAD ESTRELLA"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="83dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="NEM"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="249dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="TUERCA SEGURIDAD ESTRELLA"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/carrito_copras" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
 
         </GridLayout>

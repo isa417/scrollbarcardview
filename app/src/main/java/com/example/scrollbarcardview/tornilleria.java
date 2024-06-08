@@ -18,7 +18,9 @@ public class tornilleria extends AppCompatActivity {
     ImageView remache;
     ImageView tuerca;
     ImageView barra;
-    ImageView t;
+    ImageView tC;
+    ImageView pija;
+    ImageView ta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +28,26 @@ public class tornilleria extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_tornilleria);
 
-        t = findViewById(R.id.t);
-        t.setOnClickListener(new View.OnClickListener() {
+        ta = findViewById(R.id.ta);
+        ta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(tornilleria.this, ta.class);
+                startActivity(i);
+            }
+        });
+
+        pija = findViewById(R.id.pija);
+        pija.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(tornilleria.this, pija.class);
+                startActivity(i);
+            }
+        });
+
+        tC = findViewById(R.id.tC);
+        tC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(tornilleria.this, tornillo.class);
@@ -66,7 +86,7 @@ public class tornilleria extends AppCompatActivity {
         arandela.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(tornilleria.this, arandela.class);
+                Intent i = new Intent(tornilleria.this, arandelator.class);
                 startActivity(i);
             }
         });
