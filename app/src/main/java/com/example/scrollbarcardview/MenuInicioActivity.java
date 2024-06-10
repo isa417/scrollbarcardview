@@ -66,7 +66,7 @@ public class MenuInicioActivity extends AppCompatActivity {
         tornilleria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MenuInicioActivity.this, tornilleria.class);
+                Intent i = new Intent(MenuInicioActivity.this, menutornilleria.class);
                 startActivity(i);
             }
         });

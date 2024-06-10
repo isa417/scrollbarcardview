@@ -21,12 +21,32 @@ public class tornilleria extends AppCompatActivity {
     ImageView tC;
     ImageView pija;
     ImageView ta;
+    ImageView allen;
+    ImageView salirmenutornilleria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_tornilleria);
+
+        salirmenutornilleria = findViewById(R.id.salirmenutornilleria);
+        salirmenutornilleria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(tornilleria.this, menutornilleria.class);
+                startActivity(i);
+            }
+        });
+
+        allen = findViewById(R.id.ta);
+        allen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(tornilleria.this, allen.class);
+                startActivity(i);
+            }
+        });
 
         ta = findViewById(R.id.ta);
         ta.setOnClickListener(new View.OnClickListener() {

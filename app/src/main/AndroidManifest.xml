@@ -15,6 +15,30 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".rondanainox"
+            android:exported="false" />
+        <activity
+            android:name=".pijainox"
+            android:exported="false" />
+        <activity
+            android:name=".tuercasinox"
+            android:exported="false" />
+        <activity
+            android:name=".tornillohexagonal"
+            android:exported="false" />
+        <activity
+            android:name=".alleninox"
+            android:exported="false" />
+        <activity
+            android:name=".tornilleriainoxidable"
+            android:exported="false" />
+        <activity
+            android:name=".menutornilleria"
+            android:exported="false" />
+        <activity
+            android:name=".allen"
+            android:exported="false" />
+        <activity
             android:name=".ta"
             android:exported="false" />
         <activity
