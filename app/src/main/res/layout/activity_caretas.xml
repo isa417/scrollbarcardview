@@ -64,7 +64,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ge101imaf"
+                        android:id="@+id/st6500220"
                         android:layout_width="180dp"
                         android:layout_height="164dp"
                         android:layout_gravity="center"

@@ -21,6 +21,7 @@ public class tornilleria extends AppCompatActivity {
     ImageView tC;
     ImageView pija;
     ImageView ta;
+    ImageView th;
     ImageView allen;
     ImageView salirmenutornilleria;
 
@@ -39,7 +40,16 @@ public class tornilleria extends AppCompatActivity {
             }
         });
 
-        allen = findViewById(R.id.ta);
+        th = findViewById(R.id.th);
+        th.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(tornilleria.this, th.class);
+                startActivity(i);
+            }
+        });
+
+        allen = findViewById(R.id.allen);
         allen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

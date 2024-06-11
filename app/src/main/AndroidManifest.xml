@@ -15,6 +15,27 @@
         android:theme="@style/Theme.Scrollbarcardview"
         tools:targetApi="31">
         <activity
+            android:name=".st65004451"
+            android:exported="false" />
+        <activity
+            android:name=".st65000220"
+            android:exported="false" />
+        <activity
+            android:name=".t"
+            android:exported="false" />
+        <activity
+            android:name=".cb"
+            android:exported="false" />
+        <activity
+            android:name=".din"
+            android:exported="false" />
+        <activity
+            android:name=".chavetas"
+            android:exported="false" />
+        <activity
+            android:name=".barrainox"
+            android:exported="false" />
+        <activity
             android:name=".rondanainox"
             android:exported="false" />
         <activity

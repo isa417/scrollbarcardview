@@ -11,34 +11,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CaretasActivity extends AppCompatActivity {
+public class rondanainox extends AppCompatActivity {
 
-    ImageView salirmenuwestoncaretas;
-    ImageView st6500220;
+    ImageView salirmenurondanainoxidable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_caretas);
+        setContentView(R.layout.activity_rondanainox);
 
-        st6500220 = findViewById(R.id.st6500220);
-        st6500220.setOnClickListener(new View.OnClickListener() {
+        salirmenurondanainoxidable = findViewById(R.id.salirmenurondanainoxidable);
+        salirmenurondanainoxidable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CaretasActivity.this, st65000220.class);
+                Intent i = new Intent(rondanainox.this, tornilleriainoxidable.class);
                 startActivity(i);
             }
         });
 
-        salirmenuwestoncaretas = findViewById(R.id.salirmenuwestoncaretas);
-        salirmenuwestoncaretas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(CaretasActivity.this, MenuWestonActivity.class);
-                startActivity(i);
-            }
-        });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
